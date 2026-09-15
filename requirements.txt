@@ -1,0 +1,10 @@
+# Runtime (pinned 2026-09-14, Python 3.12)
+opencv-python-headless==5.0.0.93
+numpy==2.5.3
+fastapi==0.141.1
+uvicorn==0.53.0
+python-multipart==0.0.32
+boto3==1.43.94
+httpx==0.28.1
+# Dev / test
+pytest==9.1.1

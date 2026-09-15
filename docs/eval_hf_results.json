@@ -1,0 +1,1427 @@
+{
+  "summary": {
+    "dataset": "keremberke/hard-hat-detection valid subset (CC BY 4.0, 200 images, seed 20260915)",
+    "hardhat_classification": {
+      "precision": 0.795,
+      "recall": 0.748,
+      "f1": 0.771,
+      "accuracy": 0.746,
+      "tp": 175,
+      "fp": 45,
+      "tn": 130,
+      "fn": 59
+    },
+    "head_coverage_recall": 0.812,
+    "heads_covered": 409,
+    "heads_total": 504,
+    "detections_without_labeled_head": 99,
+    "latency_ms": {
+      "mean": 478.2,
+      "p95": 547.9,
+      "backend": "cv2.dnn CPU (OpenCV 5.0.0)"
+    },
+    "n_images": 200
+  },
+  "per_image": [
+    {
+      "image": "000086_jpg.rf.61141cc21d9459362d4f7dafab3fe577.jpg",
+      "latency_ms": 861.1,
+      "detections": 0,
+      "gt_heads": 2,
+      "heads_covered": 0
+    },
+    {
+      "image": "-342-_png_jpg.rf.61ada178870e94c27a2ab8ee8b002973.jpg",
+      "latency_ms": 819.7,
+      "detections": 9,
+      "gt_heads": 5,
+      "heads_covered": 5
+    },
+    {
+      "image": "RPReplay_Final1667001201_MP4-422_jpg.rf.62be70c0a9bc3c0b6f7715e98c13eb76.jpg",
+      "latency_ms": 646.7,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_9949-1-_mp4-14_jpg.rf.6390847b02ae520ff1e6740714a16a91.jpg",
+      "latency_ms": 878.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "006783_jpg.rf.642457a714bdcc9f7f86f103d51fceac.jpg",
+      "latency_ms": 442.7,
+      "detections": 3,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "-3448-_png_jpg.rf.649fcf2e63b8de68a48925e88897e0f6.jpg",
+      "latency_ms": 436.9,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "-1159-_png_jpg.rf.66231e1d851b5ebea648bdbc5d31e14f.jpg",
+      "latency_ms": 503.3,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "0200b38c89b16c37c5de8e247bb00c2f_jpg.rf.66a61135f9681c9b08c984b08e0cb062.jpg",
+      "latency_ms": 447.3,
+      "detections": 4,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "RPReplay_Final1667001201_MP4-260_jpg.rf.6744d54cd5d78f2a84cdcc098b945d4b.jpg",
+      "latency_ms": 495.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-4270-_png_jpg.rf.68c63023fb7913bfc8b5696547a6d6a6.jpg",
+      "latency_ms": 443.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "ppe_0298_jpg.rf.69394f7a5cc5ad10829216ff2e429c10.jpg",
+      "latency_ms": 496.8,
+      "detections": 2,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "IMG_4921-2_mp4-39_jpg.rf.6a84014c83f5aadf3645d3d291be6b6b.jpg",
+      "latency_ms": 454.2,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-789-_png_jpg.rf.6b8d141ae94bfb874c150d5916a75124.jpg",
+      "latency_ms": 507.9,
+      "detections": 1,
+      "gt_heads": 3,
+      "heads_covered": 2
+    },
+    {
+      "image": "1580166133-5b61094cac11561b0cbe09826e32a924_jpg.rf.6ea0e6eaf9d3bdf5270d03a78c403f1b.jpg",
+      "latency_ms": 458.5,
+      "detections": 8,
+      "gt_heads": 8,
+      "heads_covered": 7
+    },
+    {
+      "image": "000253_jpg.rf.6ffcd07ca445e29f5eac315989c3399e.jpg",
+      "latency_ms": 472.5,
+      "detections": 9,
+      "gt_heads": 8,
+      "heads_covered": 6
+    },
+    {
+      "image": "mask-wearing-1632937856467_png_jpg.rf.711a55401e9024e15be41dde558a22af.jpg",
+      "latency_ms": 611.2,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1523-_png_jpg.rf.71f928db34b38acedcd16536cc53ab6f.jpg",
+      "latency_ms": 450.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "ST_20170401_EASAND_3046471_jpg.rf.723f8b162a830d678980feb02abaa261.jpg",
+      "latency_ms": 477.6,
+      "detections": 7,
+      "gt_heads": 8,
+      "heads_covered": 8
+    },
+    {
+      "image": "001698_jpg.rf.791a4744c866526ed615b34fda3b7f33.jpg",
+      "latency_ms": 457.1,
+      "detections": 0,
+      "gt_heads": 2,
+      "heads_covered": 0
+    },
+    {
+      "image": "IMG_5025_mp4-10_jpg.rf.799f3aed186c162d7f70415e66a78c69.jpg",
+      "latency_ms": 495.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "RPReplay_Final1667001201_MP4-332_jpg.rf.7a2188af2a4a49dcefe9d7a961292e96.jpg",
+      "latency_ms": 444.8,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "images-45-_jpeg_jpg.rf.7a53ba5fab2d4443f85136a8912fcefe.jpg",
+      "latency_ms": 473.7,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_4920_mov-0_jpg.rf.7c2ada49768f89741d6dd999c06689ba.jpg",
+      "latency_ms": 510.7,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "RPReplay_Final1667001201_MP4-61_jpg.rf.7d9648b045257e2c26f050a70a09e4bf.jpg",
+      "latency_ms": 487.4,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "p113118_jpg.rf.7e041f96af6b6198630a6c68aff28f63.jpg",
+      "latency_ms": 550.2,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "RPReplay_Final1667001201_MP4-257_jpg.rf.7e9489b1ce3f012c90ea2cd15226ed25.jpg",
+      "latency_ms": 472.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1317-_png_jpg.rf.7e99f5067ce9bf3f3649429490cc09a8.jpg",
+      "latency_ms": 448.6,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "IMG_1492_mp4-13_jpg.rf.7f3bc3604e54b7c454e1e3e307039195.jpg",
+      "latency_ms": 439.6,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "no-mask_mov-21_jpg.rf.8106d2d8953274720443f713a821c1f7.jpg",
+      "latency_ms": 488.3,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_3103_mp4-21_jpg.rf.8178413618effe04094ffe568300c634.jpg",
+      "latency_ms": 479.0,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "002414_jpg.rf.8321826a164f4b866005722d5c361b8a.jpg",
+      "latency_ms": 446.7,
+      "detections": 3,
+      "gt_heads": 6,
+      "heads_covered": 4
+    },
+    {
+      "image": "-2083-_png_jpg.rf.83fb4e5363f8a4cfd749b56b60d82c3a.jpg",
+      "latency_ms": 468.8,
+      "detections": 2,
+      "gt_heads": 3,
+      "heads_covered": 2
+    },
+    {
+      "image": "005414_jpg.rf.84d63b9848d237c9254475ea963b0af0.jpg",
+      "latency_ms": 472.0,
+      "detections": 4,
+      "gt_heads": 4,
+      "heads_covered": 4
+    },
+    {
+      "image": "-4948-_png_jpg.rf.85ffd75d32bdc67470b970c1e8c0e3d4.jpg",
+      "latency_ms": 503.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "Mask2_mov-53_jpg.rf.8675bc94cb30aa7e106e57d3799413d8.jpg",
+      "latency_ms": 447.6,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "02783_jpg.rf.875edd619edd95c72ada05908679a285.jpg",
+      "latency_ms": 435.9,
+      "detections": 7,
+      "gt_heads": 7,
+      "heads_covered": 7
+    },
+    {
+      "image": "-3152-_png_jpg.rf.87c6a7f7a03be94bc7076c38ca8cdf59.jpg",
+      "latency_ms": 483.6,
+      "detections": 3,
+      "gt_heads": 3,
+      "heads_covered": 2
+    },
+    {
+      "image": "helmet9991006_jpg.rf.8870d6df59c675a4c005146ac4228c5d.jpg",
+      "latency_ms": 450.5,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "006750_jpg.rf.8a2b00920d965ec86b1abaa345d3eab5.jpg",
+      "latency_ms": 450.9,
+      "detections": 5,
+      "gt_heads": 6,
+      "heads_covered": 6
+    },
+    {
+      "image": "helmet999594_jpg.rf.8a329c2d22c418e537c69475f42df4c3.jpg",
+      "latency_ms": 462.5,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "helmet999998_jpg.rf.8a966d25d604cc316826e3f00e691b32.jpg",
+      "latency_ms": 445.6,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "mask-wearing-1632933579037_png_jpg.rf.8bd02b171ef23ab97b497cd0f0027a10.jpg",
+      "latency_ms": 464.8,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "003800_jpg.rf.8be6eae7891654c4a1ff788cdb211ced.jpg",
+      "latency_ms": 501.2,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "IMG_9950-1-_mp4-51_jpg.rf.8bed7a6272d4cacaad808ea5e64812a2.jpg",
+      "latency_ms": 451.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1965-_png_jpg.rf.8e4079db8a8536f8c3f1f101ff19ef13.jpg",
+      "latency_ms": 445.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1372-_png_jpg.rf.8ed48f3d3d24d3377840c01e32c7f189.jpg",
+      "latency_ms": 473.6,
+      "detections": 3,
+      "gt_heads": 6,
+      "heads_covered": 6
+    },
+    {
+      "image": "001478_jpg.rf.8f9a2aa5ec63ad30d716398b259d5cda.jpg",
+      "latency_ms": 464.6,
+      "detections": 7,
+      "gt_heads": 15,
+      "heads_covered": 12
+    },
+    {
+      "image": "006550_jpg.rf.911f68834f242ec3b37850a21a7da4bd.jpg",
+      "latency_ms": 474.9,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "005356_jpg.rf.915e5fd361d1017fae31c4014c9e5249.jpg",
+      "latency_ms": 510.8,
+      "detections": 5,
+      "gt_heads": 4,
+      "heads_covered": 4
+    },
+    {
+      "image": "002697_jpg.rf.9459a4bfbf187e6ec76fda1471e826c5.jpg",
+      "latency_ms": 462.6,
+      "detections": 9,
+      "gt_heads": 13,
+      "heads_covered": 13
+    },
+    {
+      "image": "mask-wearing-tests_mohamed_mp4-48_jpg.rf.957f40593df4f02f4b1676cdfced2d49.jpg",
+      "latency_ms": 459.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "Mask2_mov-34_jpg.rf.96a735820026afb27a66a60bb990a0b7.jpg",
+      "latency_ms": 488.1,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "helmet9991172_jpg.rf.97a1e899963e84acf219d562f2659663.jpg",
+      "latency_ms": 453.2,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "RPReplay_Final1667001201_MP4-264_jpg.rf.98a127649f57049bd0df338a29cf80ee.jpg",
+      "latency_ms": 474.8,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "helmet9991168_jpg.rf.98c4133cc97c752a7d09ee03cf7dd3d6.jpg",
+      "latency_ms": 428.3,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "p113189_jpg.rf.98fd77e371e2a3e5127513631fea5fdd.jpg",
+      "latency_ms": 470.2,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-3906-_png_jpg.rf.991c70016b7d5e4627bd77925f30cd2e.jpg",
+      "latency_ms": 444.1,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "000789_jpg.rf.9ac38d80c807470b1ebdb7489699cada.jpg",
+      "latency_ms": 497.9,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "-3494-_png_jpg.rf.9b3edec07c5ce93316402d2336fbfea2.jpg",
+      "latency_ms": 450.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "MX_img_49_jpg.rf.9d4a81b294625ac4176c7f9d9b974534.jpg",
+      "latency_ms": 479.8,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "ppe_0857_jpg.rf.9fc39114dee4a358d174f4a4dfd210bd.jpg",
+      "latency_ms": 487.7,
+      "detections": 7,
+      "gt_heads": 7,
+      "heads_covered": 6
+    },
+    {
+      "image": "MX_img_85_jpg.rf.9ffe33247ce47a42575fff5ab383139a.jpg",
+      "latency_ms": 460.4,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "-2207-_png_jpg.rf.a1da4ef4c285a110f598fb09ed287533.jpg",
+      "latency_ms": 447.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "N5h_img_96_jpg.rf.a2c358c00801b70c189029a7c8e30dc6.jpg",
+      "latency_ms": 447.4,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_9950-1-_mp4-36_jpg.rf.a3087a2fa9b4b9d5c74aafe6603a1580.jpg",
+      "latency_ms": 459.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "front_crawling_00529_jpg.rf.a37599630841858101c6e6186cbc0256.jpg",
+      "latency_ms": 455.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "004329_jpg.rf.a5630d7cb4418bb8c71eb8e6188346a2.jpg",
+      "latency_ms": 508.1,
+      "detections": 6,
+      "gt_heads": 6,
+      "heads_covered": 6
+    },
+    {
+      "image": "000115_jpg.rf.a7b73f6f5990f5d98f0300aff6dfb9fe.jpg",
+      "latency_ms": 445.1,
+      "detections": 3,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "-660-_png_jpg.rf.a7f64ed10909775dc7d4007324bdd4f9.jpg",
+      "latency_ms": 465.5,
+      "detections": 7,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "004079_jpg.rf.a885adde53f9caf0f8326813ae6ade95.jpg",
+      "latency_ms": 473.9,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "001731_jpg.rf.a90e95c4b526adf3afdf654b31079e71.jpg",
+      "latency_ms": 470.2,
+      "detections": 1,
+      "gt_heads": 4,
+      "heads_covered": 2
+    },
+    {
+      "image": "p656213165_jpg.rf.ab0de7602a5db7242d31216d32bf4a54.jpg",
+      "latency_ms": 446.8,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "w1240-p16x9-fa978043deff83fed485af12d16e39c61398fc30_jpg.rf.ac285bb952077507bf44869855bff84f.jpg",
+      "latency_ms": 471.2,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-851-_png_jpg.rf.ae846f9833c05490ee303ac0b212b348.jpg",
+      "latency_ms": 473.6,
+      "detections": 9,
+      "gt_heads": 19,
+      "heads_covered": 10
+    },
+    {
+      "image": "helmet999513_jpg.rf.b0d458b0b25141ba0cf67eaff7cfb823.jpg",
+      "latency_ms": 500.5,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "00521_jpg.rf.b19ce9fc657c6eb5513b9b80baf8bb74.jpg",
+      "latency_ms": 497.1,
+      "detections": 3,
+      "gt_heads": 4,
+      "heads_covered": 4
+    },
+    {
+      "image": "-515-_png_jpg.rf.b1e512d265f2772565c5453a701f1f35.jpg",
+      "latency_ms": 444.0,
+      "detections": 3,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "-4090-_png_jpg.rf.b2377e2fbec194d204b8b064cfac43ee.jpg",
+      "latency_ms": 470.5,
+      "detections": 4,
+      "gt_heads": 4,
+      "heads_covered": 2
+    },
+    {
+      "image": "Mask2_mov-27_jpg.rf.b2877e2455f9f6af26f13cfd85e17aa3.jpg",
+      "latency_ms": 492.0,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "00379_jpg.rf.b30f8799833dbb4b9ba581c9652c6303.jpg",
+      "latency_ms": 459.4,
+      "detections": 5,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "img08_png_jpg.rf.b390c3447befd8c7a4713605a2cbda4c.jpg",
+      "latency_ms": 447.5,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1535-_png_jpg.rf.b6430304135af7c76599cc359a617ed0.jpg",
+      "latency_ms": 476.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-2344-_png_jpg.rf.b64411807da2f0b16cb7677fa66c964c.jpg",
+      "latency_ms": 459.4,
+      "detections": 3,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "IMG_3094_mp4-26_jpg.rf.b689fe566d6361193d9c77be1ffe9d65.jpg",
+      "latency_ms": 488.5,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-3136-_png_jpg.rf.b6bd737ab91379472d8f0765a01ef586.jpg",
+      "latency_ms": 495.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_1491_mp4-10_jpg.rf.b73f7d9947ab2bd69cc8ffa84ad2cb0b.jpg",
+      "latency_ms": 456.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "003551_jpg.rf.b77319663e6adbc1ab4b7db9d8454de5.jpg",
+      "latency_ms": 455.6,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "-3300-_png_jpg.rf.bb7ac70878f668cee90f937988d85127.jpg",
+      "latency_ms": 490.7,
+      "detections": 3,
+      "gt_heads": 5,
+      "heads_covered": 5
+    },
+    {
+      "image": "IMG_4921-2_mp4-85_jpg.rf.bde24d1aafe84cb959fc9b9513d8cabb.jpg",
+      "latency_ms": 423.7,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "helmet999546_jpg.rf.bde8b3895eac792104a5b20404766363.jpg",
+      "latency_ms": 464.1,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "000911_jpg.rf.c23f69853ec96daca5aefd2d1de9d21b.jpg",
+      "latency_ms": 452.5,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "-4786-_png_jpg.rf.c47401da5ec505319d80df75d0caac68.jpg",
+      "latency_ms": 445.5,
+      "detections": 1,
+      "gt_heads": 3,
+      "heads_covered": 1
+    },
+    {
+      "image": "-2786-_png_jpg.rf.c4c6e40ad111a0363899fafb59dc10dc.jpg",
+      "latency_ms": 468.0,
+      "detections": 1,
+      "gt_heads": 3,
+      "heads_covered": 1
+    },
+    {
+      "image": "img18_png_jpg.rf.c7b1cad53bd08a73b4dbb7d7bbb56260.jpg",
+      "latency_ms": 493.2,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "RPReplay_Final1667001201_MP4-381_jpg.rf.c8ab9502fca82aefdc72aa14df795430.jpg",
+      "latency_ms": 452.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "000368_jpg.rf.c97937987907eea9bb5502ee799c8827.jpg",
+      "latency_ms": 444.0,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "000032_jpg.rf.ca2292ef56c7f4715ab0f7a3bc645df9.jpg",
+      "latency_ms": 440.9,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "-1582-_png_jpg.rf.cae85f716157e935dcc78ecac630d276.jpg",
+      "latency_ms": 481.5,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "005908_jpg.rf.cb2fb3ba253a2f68561acae22c6f79c7.jpg",
+      "latency_ms": 446.9,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "-3004-_png_jpg.rf.cd5a614e1103d13ada7b7bf6af423fad.jpg",
+      "latency_ms": 471.1,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "000224_jpg.rf.cf5568acd66e4fac20b1a424549f5728.jpg",
+      "latency_ms": 443.9,
+      "detections": 3,
+      "gt_heads": 4,
+      "heads_covered": 3
+    },
+    {
+      "image": "IMG_3102_mp4-52_jpg.rf.d00fa7f28d1d8b009a642685878c1a0f.jpg",
+      "latency_ms": 479.8,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "005003_jpg.rf.d064070f5cfb9e3120d468999536abe6.jpg",
+      "latency_ms": 473.3,
+      "detections": 0,
+      "gt_heads": 3,
+      "heads_covered": 0
+    },
+    {
+      "image": "-2460-_png_jpg.rf.d141086e5aa812fbeb6e69e5a3840a3f.jpg",
+      "latency_ms": 508.1,
+      "detections": 6,
+      "gt_heads": 4,
+      "heads_covered": 3
+    },
+    {
+      "image": "YouTube-FreeStockFootage_Child-playing-with-parents-JoyLaughterHD-RQ_qqCZOkZk-720p_mp4-12_jpg.rf.d1723263e3c451f28e6c239ea31f2324.jpg",
+      "latency_ms": 469.4,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "MX_img_126_jpg.rf.d2ba943705db5595b00102f7e59b02ca.jpg",
+      "latency_ms": 443.3,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "-1633-_png_jpg.rf.d4dcedebe1ac01d6f3331063c769aec7.jpg",
+      "latency_ms": 493.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1110-_png_jpg.rf.d629fbf9948144a4fd6b2f0743676c03.jpg",
+      "latency_ms": 441.3,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "YouTube_FreeStockFootage_People-wearing-face-mask_Empty-Street_Covid19-D_DbgrvhlGs-720p_mp4-33_jpg.rf.d7b357d459b95bfb81f14c759663a21b.jpg",
+      "latency_ms": 462.6,
+      "detections": 2,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "006916_jpg.rf.e041b8d2adf5328f6f31e0dce5a4380e.jpg",
+      "latency_ms": 452.0,
+      "detections": 12,
+      "gt_heads": 17,
+      "heads_covered": 14
+    },
+    {
+      "image": "IMG_4920_mov-22_jpg.rf.e0b0ed042e78e2298051e5f9c6e10b88.jpg",
+      "latency_ms": 473.8,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-4770-_png_jpg.rf.e240ac95d92ffef1cb683bb2c5c46786.jpg",
+      "latency_ms": 504.1,
+      "detections": 3,
+      "gt_heads": 4,
+      "heads_covered": 3
+    },
+    {
+      "image": "p113178_jpg.rf.e31a6a9c8c45d8468b62cc3721414eab.jpg",
+      "latency_ms": 451.6,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "02533_jpg.rf.e2f6f894343c98fe889424b30d836595.jpg",
+      "latency_ms": 463.2,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_4921-2_mp4-4_jpg.rf.e5cca8e0890a4e04185397abfe73f2fc.jpg",
+      "latency_ms": 447.3,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1614-_png_jpg.rf.ea33b04fe3724feaa2cfadc9e5caaecb.jpg",
+      "latency_ms": 485.9,
+      "detections": 3,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "-1115-_png_jpg.rf.eaae86772017141f25589ad35d0f31b9.jpg",
+      "latency_ms": 470.6,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "-275-_png_jpg.rf.eabf589e71210eb4b31106e628049496.jpg",
+      "latency_ms": 471.7,
+      "detections": 4,
+      "gt_heads": 4,
+      "heads_covered": 4
+    },
+    {
+      "image": "005906_jpg.rf.ee050ba5506d1f474c7bac9eb019ae4c.jpg",
+      "latency_ms": 463.0,
+      "detections": 2,
+      "gt_heads": 3,
+      "heads_covered": 1
+    },
+    {
+      "image": "1224331650_g_400-w_g_jpg.rf.ee58274c592631e6572ca1cb07b85d3c.jpg",
+      "latency_ms": 634.0,
+      "detections": 4,
+      "gt_heads": 4,
+      "heads_covered": 4
+    },
+    {
+      "image": "mask-wearing-1632937777478_png_jpg.rf.ee7276e53fb36af1a91443e6765a96b6.jpg",
+      "latency_ms": 662.4,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "ppe_0656_jpg.rf.ef4e6739fa03c9f73b206a11fd4bd03a.jpg",
+      "latency_ms": 418.4,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_3100_mp4-24_jpg.rf.f1f634b6f40a1267a30e694a5662b514.jpg",
+      "latency_ms": 525.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-2417-_png_jpg.rf.f4ef84eeec41aa55d127b7a333e16776.jpg",
+      "latency_ms": 648.8,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "-2624-_png_jpg.rf.f55ad30efe2c33ebc87259a2366a6c30.jpg",
+      "latency_ms": 457.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-980-_png_jpg.rf.f5a7d5af7ef5a655f7209e12405070d3.jpg",
+      "latency_ms": 522.2,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "N5h_img_187_jpg.rf.f75636ac56fb75d5bd96212da282b2a7.jpg",
+      "latency_ms": 497.4,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "image_19_jpg.rf.f72eaf33465a059fddc3e655e7efbaef.jpg",
+      "latency_ms": 472.2,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "003134_jpg.rf.f9aba19f1d70e201c93310abdb1d8a55.jpg",
+      "latency_ms": 547.8,
+      "detections": 3,
+      "gt_heads": 4,
+      "heads_covered": 4
+    },
+    {
+      "image": "-2473-_png_jpg.rf.fc2652aa73669124bc662e51dfe860ae.jpg",
+      "latency_ms": 504.7,
+      "detections": 2,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1481-_png_jpg.rf.010c4326df2be478a0df5616ac71cd1b.jpg",
+      "latency_ms": 469.1,
+      "detections": 7,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "p11351_jpg.rf.01e827fa82f052884f9fca157d942b1b.jpg",
+      "latency_ms": 497.4,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "YouTube_FreeStockFootage_People-wearing-face-mask_Empty-Street_Covid19-D_DbgrvhlGs-720p_mp4-22_jpg.rf.0214dd94ca92b82cb0037735b1adc513.jpg",
+      "latency_ms": 485.9,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_4921-2_mp4-119_jpg.rf.028e15e7271af5db291c3cab5ff313e4.jpg",
+      "latency_ms": 455.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "002404_jpg.rf.031143a4c78b6c7b67cf07613a370bd2.jpg",
+      "latency_ms": 443.6,
+      "detections": 5,
+      "gt_heads": 5,
+      "heads_covered": 5
+    },
+    {
+      "image": "IMG_5025_mp4-8_jpg.rf.07181506aef81cc2b7e292e62c0087ec.jpg",
+      "latency_ms": 474.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "005897_jpg.rf.07b84c7f5c694498d3fa15275f34ad94.jpg",
+      "latency_ms": 450.0,
+      "detections": 4,
+      "gt_heads": 6,
+      "heads_covered": 6
+    },
+    {
+      "image": "ppe_1101_jpg.rf.08a3aea197e5f73cc373b99178d00687.jpg",
+      "latency_ms": 502.8,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "Screenshot_20210830-123511_Instagram_jpg.rf.08a96652e06e650f53e4f8ccc547290a.jpg",
+      "latency_ms": 442.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1792-_png_jpg.rf.08ab45dcf12d4b21621ff2d82a309743.jpg",
+      "latency_ms": 461.6,
+      "detections": 5,
+      "gt_heads": 5,
+      "heads_covered": 4
+    },
+    {
+      "image": "p651331_jpg.rf.091f15110e33f274362614e290b8d198.jpg",
+      "latency_ms": 443.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_4921-2_mp4-20_jpg.rf.0ee4eba7156e193bc418bf85e650a351.jpg",
+      "latency_ms": 473.7,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "006880_jpg.rf.1004176eee8cf6e147dc81a2a0c253a0.jpg",
+      "latency_ms": 443.8,
+      "detections": 5,
+      "gt_heads": 6,
+      "heads_covered": 6
+    },
+    {
+      "image": "-3924-_png_jpg.rf.12f3c906c25c0bba484c8aacde3c54d7.jpg",
+      "latency_ms": 441.0,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "mask-wearing-1632939827557_png_jpg.rf.153b2aca52d9fa04bf00f979d96674e3.jpg",
+      "latency_ms": 466.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "p65621351_jpg.rf.167f4831e41d4a8b3f016836026b1ee0.jpg",
+      "latency_ms": 447.9,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "IMG_4921-2_mp4-78_jpg.rf.17617c7faae9de724e08e6abe55e4f28.jpg",
+      "latency_ms": 495.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "N5h_img_173_jpg.rf.186a72eb33c28642e735fb1d833ff019.jpg",
+      "latency_ms": 453.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-3920-_png_jpg.rf.196c0a83fc397bfee699c432f6ca675c.jpg",
+      "latency_ms": 480.0,
+      "detections": 4,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "001457_jpg.rf.1cc1e9506238f883cabf670d9df14082.jpg",
+      "latency_ms": 440.7,
+      "detections": 0,
+      "gt_heads": 2,
+      "heads_covered": 0
+    },
+    {
+      "image": "p65621379_jpg.rf.1df9eda7d688eb2cb6b298e2297c13f0.jpg",
+      "latency_ms": 505.7,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "MX_img_171_jpg.rf.1ebe0b33119c10bb74992eae3ede6f80.jpg",
+      "latency_ms": 447.9,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "000120_jpg.rf.1fd81804174d59d7507a383dddfae20d.jpg",
+      "latency_ms": 463.5,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "002749_jpg.rf.201631ad6979cc1ddad42887ec5c7812.jpg",
+      "latency_ms": 443.0,
+      "detections": 4,
+      "gt_heads": 5,
+      "heads_covered": 4
+    },
+    {
+      "image": "RPReplay_Final1667001201_MP4-326_jpg.rf.208bf63d77dafefd8be76654c07537ba.jpg",
+      "latency_ms": 446.8,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "000013_jpg.rf.21d70c123789cc585b47fdcf020f7154.jpg",
+      "latency_ms": 472.6,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-2892-_png_jpg.rf.225437ec4e9b0c66a8bef41c7c2ea391.jpg",
+      "latency_ms": 450.7,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "front_crawling_00332_jpg.rf.240c0501d83fd32fc33e130521f6d595.jpg",
+      "latency_ms": 504.5,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "000478_jpg.rf.2429556691a30798688254222cfe731b.jpg",
+      "latency_ms": 447.2,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "-4421-_png_jpg.rf.249a1fb8c5c5bd0a08809221181fbf8f.jpg",
+      "latency_ms": 483.3,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_3094_mp4-36_jpg.rf.260f2fe4415c606e9f21f6021d33bbbd.jpg",
+      "latency_ms": 446.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "003573_jpg.rf.26da1d2b0113fa71536fec1902b0aad1.jpg",
+      "latency_ms": 463.6,
+      "detections": 9,
+      "gt_heads": 10,
+      "heads_covered": 10
+    },
+    {
+      "image": "-1224-_png_jpg.rf.281c862d766e92a8b2edc8911770a795.jpg",
+      "latency_ms": 467.2,
+      "detections": 5,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "002456_jpg.rf.2ce9ac2818ee1cb1a5833c3b5fe9d97f.jpg",
+      "latency_ms": 459.7,
+      "detections": 4,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "005328_jpg.rf.2e070fec494c61453281a770939d4f44.jpg",
+      "latency_ms": 440.3,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "N5h_img_213_jpg.rf.2f2d49f9ff75d96a0107ff5086f5f7a1.jpg",
+      "latency_ms": 481.7,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "005553_jpg.rf.2f3d501fc10c6f4c9f145ce88d500bc3.jpg",
+      "latency_ms": 449.1,
+      "detections": 4,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "000875_jpg.rf.3144d9c47dccb61bb3ef0d38410505c0.jpg",
+      "latency_ms": 441.8,
+      "detections": 8,
+      "gt_heads": 10,
+      "heads_covered": 9
+    },
+    {
+      "image": "003453_jpg.rf.319b35c389c4cae1b5427509427d8d50.jpg",
+      "latency_ms": 496.9,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "000683_jpg.rf.32d94e0812b02de8b080bacbdc3d7ca3.jpg",
+      "latency_ms": 469.6,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "ppe_1223_jpg.rf.33eb0a47a43373cb9d16100edb7bd9ca.jpg",
+      "latency_ms": 474.5,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "-1740-_png_jpg.rf.34d5664e4f2e919d8fd08a5096f8499c.jpg",
+      "latency_ms": 479.1,
+      "detections": 4,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "IMG_3094_mp4-43_jpg.rf.371f1ee9e217c19981f36dc4f2935d3e.jpg",
+      "latency_ms": 453.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "front_crawling_00319_jpg.rf.38a611fbea0c647dc7a9e8545098698c.jpg",
+      "latency_ms": 491.5,
+      "detections": 2,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "000813_jpg.rf.38d5579f30b7d28d20e41f843c0c7302.jpg",
+      "latency_ms": 452.5,
+      "detections": 5,
+      "gt_heads": 4,
+      "heads_covered": 4
+    },
+    {
+      "image": "002315_jpg.rf.38f553fc0bbde113e13d32c7a7c25b5d.jpg",
+      "latency_ms": 456.1,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-2896-_png_jpg.rf.39d4573b9fed45b3a92740d8f30b9064.jpg",
+      "latency_ms": 460.8,
+      "detections": 3,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "helmet999811_jpg.rf.3b407fdc651bd8ba9c82b36e22c27cb9.jpg",
+      "latency_ms": 584.1,
+      "detections": 1,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "mask-wearing-tests_mohamed_mp4-75_jpg.rf.3c1d6b387f58ab0eb8582a2c41d1808d.jpg",
+      "latency_ms": 455.2,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_4921-2_mp4-36_jpg.rf.3cdbbb819433b8620f9c1dfb38db90e9.jpg",
+      "latency_ms": 481.7,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "000611_jpg.rf.3d4405a27d3aecc39065305ab52ae567.jpg",
+      "latency_ms": 452.4,
+      "detections": 4,
+      "gt_heads": 6,
+      "heads_covered": 6
+    },
+    {
+      "image": "mo-justin-mask-NoMask_mov-31_jpg.rf.3d71392fd093e86149a1041babdf220f.jpg",
+      "latency_ms": 457.8,
+      "detections": 2,
+      "gt_heads": 2,
+      "heads_covered": 2
+    },
+    {
+      "image": "ppe_0794_jpg.rf.3dd287c98f5323e9a6e737f2ffbb5823.jpg",
+      "latency_ms": 458.6,
+      "detections": 2,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-1788-_png_jpg.rf.41459f640d735f41196d30278fe1029b.jpg",
+      "latency_ms": 484.0,
+      "detections": 8,
+      "gt_heads": 5,
+      "heads_covered": 5
+    },
+    {
+      "image": "-500-_png_jpg.rf.41552c74a230b7a7df862a23f5afeacd.jpg",
+      "latency_ms": 452.5,
+      "detections": 7,
+      "gt_heads": 2,
+      "heads_covered": 1
+    },
+    {
+      "image": "-3154-_png_jpg.rf.434cbb605eec29d63862e35ce225500d.jpg",
+      "latency_ms": 480.0,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "helmet9991019_jpg.rf.4395489865735e17a967ed2bac43e3dd.jpg",
+      "latency_ms": 476.3,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "helmet9991012_jpg.rf.45d24822b98db5fd0aa0445bbfaf7e5c.jpg",
+      "latency_ms": 470.6,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "-370-_png_jpg.rf.47a37d480396858988d2143d5c6fe163.jpg",
+      "latency_ms": 460.5,
+      "detections": 0,
+      "gt_heads": 6,
+      "heads_covered": 0
+    },
+    {
+      "image": "006097_jpg.rf.48145c74e25c9d04f3dad944bd790a69.jpg",
+      "latency_ms": 473.4,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "000235_jpg.rf.4822032e20225da6fe6e939c68c6222f.jpg",
+      "latency_ms": 449.7,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "002177_jpg.rf.49c2a1490b65691b66d73d755da92639.jpg",
+      "latency_ms": 471.9,
+      "detections": 5,
+      "gt_heads": 5,
+      "heads_covered": 5
+    },
+    {
+      "image": "002078_jpg.rf.4ae42df88a82503930d17809f8e7ccee.jpg",
+      "latency_ms": 480.9,
+      "detections": 10,
+      "gt_heads": 12,
+      "heads_covered": 10
+    },
+    {
+      "image": "additional_tests-Nomask-wearing_mp4-22_jpg.rf.4d4c67926fbbf2400b736be6664a6786.jpg",
+      "latency_ms": 447.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "helmet9991185_jpg.rf.4ff9d94229e7fb1c9888eb75b180c866.jpg",
+      "latency_ms": 449.6,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    },
+    {
+      "image": "IMG_7307_JPG_jpg.rf.52efaaf1bcfe3fdee5b94e178af05917.jpg",
+      "latency_ms": 480.0,
+      "detections": 2,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "MX_img_101_jpg.rf.5784223735405121512829997546c6f2.jpg",
+      "latency_ms": 441.2,
+      "detections": 0,
+      "gt_heads": 1,
+      "heads_covered": 0
+    },
+    {
+      "image": "005228_jpg.rf.5c532f8e57dd15cb4819d202d1a47f95.jpg",
+      "latency_ms": 459.7,
+      "detections": 5,
+      "gt_heads": 5,
+      "heads_covered": 5
+    },
+    {
+      "image": "-4184-_png_jpg.rf.5dce11341dec73020e37260a1883ec42.jpg",
+      "latency_ms": 455.9,
+      "detections": 3,
+      "gt_heads": 3,
+      "heads_covered": 3
+    },
+    {
+      "image": "IMG_9949-1-_mp4-0_jpg.rf.5f56102386dfb614abc1916e91fa375c.jpg",
+      "latency_ms": 459.9,
+      "detections": 1,
+      "gt_heads": 1,
+      "heads_covered": 1
+    }
+  ]
+}

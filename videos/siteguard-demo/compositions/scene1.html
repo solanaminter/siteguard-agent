@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --bg:#0a0e1a; --cyan:#22d3ee; --orange:#f97316; --green:#4ade80;
+    --red:#f87171; --amber:#fbbf24; --text:#e8eef7; --dim:#93a1b8;
+    --mono:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,'Segoe UI',Inter,Roboto,'Helvetica Neue',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
+  #scene1{position:relative;width:1920px;height:1080px;overflow:hidden;
+    background:var(--bg);font-family:var(--sans);color:var(--text)}
+  .grid{position:absolute;inset:0;pointer-events:none;
+    background-image:linear-gradient(rgba(34,211,238,.055) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(34,211,238,.055) 1px,transparent 1px);
+    background-size:64px 64px}
+  .tag{font-family:var(--mono);font-size:26px;letter-spacing:.35em;color:var(--cyan);
+    text-transform:uppercase;opacity:0}
+  .rule{height:3px;width:640px;background:linear-gradient(90deg,var(--cyan),transparent);
+    margin:18px 0;opacity:0}
+  h1.hero{font-size:112px;font-weight:800;letter-spacing:.02em;line-height:1.05;
+    background:linear-gradient(180deg,#ffffff 30%,#9fd8e8 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;opacity:0}
+  .sub{font-size:38px;color:var(--dim);font-weight:300;margin-top:18px;opacity:0}
+  .beat{font-size:42px;font-weight:600;opacity:0;margin-top:14px}
+  .mono{font-family:var(--mono)}
+</style>
+</head>
+<body>
+<div id="scene1" data-composition-id="scene1" data-width="1920" data-height="1080">
+  <img src="assets/stills/site_backdrop.jpg"
+    style="position:absolute;inset:0;width:1920px;height:1080px;object-fit:cover;opacity:.5" alt="">
+  <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,14,26,.35),rgba(10,14,26,.88))"></div>
+  <div class="grid"></div>
+  <div style="position:absolute;left:120px;top:120px;right:120px">
+    <div class="tag" id="s1-kicker">OpenCV AI Competition 2026 · Agentic Vision</div>
+    <div class="rule" id="s1-rule"></div>
+    <h1 class="hero" id="s1-title">SiteGuard<br>Agent</h1>
+    <div class="sub" id="s1-sub">Agentic vision for construction-site safety</div>
+  </div>
+  <div style="position:absolute;left:120px;bottom:70px;right:120px">
+    <div class="beat" id="s1-b1"><span class="mono" style="color:var(--red)">01</span>&nbsp; Missing hardhats cause preventable injuries</div>
+    <div class="beat" id="s1-b2"><span class="mono" style="color:var(--amber)">02</span>&nbsp; Workers drift into restricted zones — excavations, crane swing, live electrical</div>
+    <div class="beat" id="s1-b3"><span class="mono" style="color:var(--cyan)">03</span>&nbsp; Fixed alarms cry wolf… so crews learn to ignore them</div>
+    <div class="beat" id="s1-b4" style="color:var(--green)">SiteGuard watches · reasons · <u>changes its mind</u> when the scene changes</div>
+  </div>
+</div>
+<script src="vendor/gsap.min.js"></script>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.to("#s1-kicker", { opacity: 1, duration: .6 }, 0.4);
+  tl.to("#s1-rule",   { opacity: 1, duration: .6 }, 0.6);
+  tl.fromTo("#s1-title", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 1.1, ease: "power3.out" }, 0.8);
+  tl.to("#s1-sub", { opacity: 1, duration: .8 }, 1.6);
+  tl.fromTo("#s1-b1", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: .7, ease: "power2.out" }, 4);
+  tl.fromTo("#s1-b2", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: .7, ease: "power2.out" }, 9);
+  tl.fromTo("#s1-b3", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: .7, ease: "power2.out" }, 15);
+  tl.fromTo("#s1-b4", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .9, ease: "power2.out" }, 22);
+  tl.to("#scene1", { opacity: 0, duration: .8 }, 31.2);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["scene1"] = tl;
+</script>
+</body>
+</html>

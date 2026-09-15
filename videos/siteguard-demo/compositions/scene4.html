@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --bg:#0a0e1a; --cyan:#22d3ee; --green:#4ade80; --amber:#fbbf24;
+    --text:#e8eef7; --dim:#93a1b8; --line:rgba(34,211,238,.14);
+    --mono:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,'Segoe UI',Inter,Roboto,'Helvetica Neue',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
+  #scene4{position:relative;width:1920px;height:1080px;overflow:hidden;
+    background:var(--bg);font-family:var(--sans);color:var(--text)}
+  .grid{position:absolute;inset:0;pointer-events:none;
+    background-image:linear-gradient(rgba(34,211,238,.055) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(34,211,238,.055) 1px,transparent 1px);
+    background-size:64px 64px}
+  .tag{font-family:var(--mono);font-size:26px;letter-spacing:.35em;color:var(--cyan);
+    text-transform:uppercase}
+  .stage{position:absolute;left:120px;right:120px;bottom:96px;display:flex;gap:28px}
+  .step{flex:1;background:rgba(15,22,38,.94);border:1px solid var(--line);border-radius:14px;
+    padding:24px 30px;opacity:0}
+  .step .n{font-family:var(--mono);font-size:24px;color:var(--dim)}
+  .step .h{font-size:40px;font-weight:700;margin:8px 0}
+  .step .d{font-size:27px;color:var(--dim);line-height:1.4}
+</style>
+</head>
+<body>
+<div id="scene4" data-composition-id="scene4" data-width="1920" data-height="1080">
+  <div class="grid"></div>
+  <div style="position:absolute;left:120px;top:80px;z-index:2">
+    <div class="tag" id="s4-kicker">System blueprint</div>
+    <div style="font-size:72px;font-weight:800;margin-top:14px" id="s4-title">Perception → decisions → AWS</div>
+  </div>
+  <div style="position:absolute;left:160px;right:160px;top:270px;height:500px;overflow:hidden;border-radius:16px;border:1px solid var(--line)">
+    <img id="s4-diagram" src="assets/ARCHITECTURE.png"
+      style="width:100%;height:100%;object-fit:cover;transform-origin:center" alt="">
+  </div>
+  <div class="stage">
+    <div class="step" id="s4-p1">
+      <div class="n">01</div><div class="h" style="color:var(--cyan)">OpenCV 5 perception</div>
+      <div class="d">YOLOX-s dnn detection · HSV hardhat masks · zone polygons · Farneback flow · IoU tracker</div>
+    </div>
+    <div class="step" id="s4-p2">
+      <div class="n">02</div><div class="h" style="color:var(--amber)">Agent loop</div>
+      <div class="d">Risk policy 40 / 80 · dismiss · request approval · auto-escalate · later vision revises open decisions</div>
+    </div>
+    <div class="step" id="s4-p3">
+      <div class="n">03</div><div class="h" style="color:var(--green)">AWS delivery</div>
+      <div class="d">Container → ECR → ECS Fargate behind ALB · S3 evidence · CloudWatch JSON logs · CloudFormation, one script</div>
+    </div>
+  </div>
+</div>
+<script src="vendor/gsap.min.js"></script>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#s4-kicker", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .7 }, 0.3);
+  tl.fromTo("#s4-title",  { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .8 }, 0.6);
+  tl.fromTo("#s4-diagram", { scale: 1 }, { scale: 1.12, duration: 28, ease: "none" }, 1);
+  tl.fromTo("#s4-p1", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: "power2.out" }, 3);
+  tl.fromTo("#s4-p2", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: "power2.out" }, 11);
+  tl.fromTo("#s4-p3", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8, ease: "power2.out" }, 19);
+  tl.to("#scene4", { opacity: 0, duration: .8 }, 30.2);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["scene4"] = tl;
+</script>
+</body>
+</html>

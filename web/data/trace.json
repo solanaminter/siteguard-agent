@@ -1,0 +1,11869 @@
+[
+ {
+  "t": 1789430929.4917033,
+  "frame": 0,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   426,
+   86,
+   273,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 0.0,
+  "reasons": [],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430929.4917192,
+  "frame": 0,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   724,
+   94,
+   292,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 0.0,
+  "reasons": [],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430929.4917288,
+  "frame": 0,
+  "event": "perception",
+  "track_id": 3,
+  "bbox": [
+   111,
+   346,
+   30,
+   51
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 1,
+  "risk": 0.0,
+  "reasons": [],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430931.2009082,
+  "frame": 1,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   423,
+   87,
+   275,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430931.2009218,
+  "frame": 1,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   723,
+   94,
+   292,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430933.1170938,
+  "frame": 2,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   422,
+   87,
+   273,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430933.1171052,
+  "frame": 2,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   721,
+   94,
+   291,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430934.9063501,
+  "frame": 3,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   420,
+   88,
+   274,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430934.9063618,
+  "frame": 3,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   719,
+   95,
+   290,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430936.998325,
+  "frame": 4,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   418,
+   88,
+   274,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430936.9983373,
+  "frame": 4,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   717,
+   95,
+   291,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430939.0069456,
+  "frame": 5,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   416,
+   88,
+   275,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430939.0069585,
+  "frame": 5,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   715,
+   95,
+   291,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430940.4966173,
+  "frame": 6,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   413,
+   87,
+   275,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430940.4966297,
+  "frame": 6,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   711,
+   94,
+   292,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430942.1775339,
+  "frame": 7,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   411,
+   88,
+   277,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430942.1775467,
+  "frame": 7,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   709,
+   93,
+   293,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430943.8311198,
+  "frame": 8,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   409,
+   88,
+   276,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430943.831133,
+  "frame": 8,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   707,
+   93,
+   293,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430945.8762026,
+  "frame": 9,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   407,
+   88,
+   277,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430945.8762143,
+  "frame": 9,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   704,
+   94,
+   294,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430947.7337787,
+  "frame": 10,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   405,
+   88,
+   276,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430947.7337904,
+  "frame": 10,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   702,
+   93,
+   295,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430948.9933991,
+  "frame": 11,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   401,
+   89,
+   279,
+   628
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430948.9934115,
+  "frame": 11,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   704,
+   92,
+   291,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430950.4689121,
+  "frame": 12,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   400,
+   90,
+   277,
+   626
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430950.4689264,
+  "frame": 12,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   702,
+   93,
+   292,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430952.7878308,
+  "frame": 13,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   398,
+   90,
+   278,
+   627
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430952.7878435,
+  "frame": 13,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   700,
+   93,
+   292,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430955.1027026,
+  "frame": 14,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   398,
+   89,
+   276,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430955.1027143,
+  "frame": 14,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   698,
+   93,
+   292,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430957.293515,
+  "frame": 15,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   393,
+   90,
+   278,
+   628
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430957.2935276,
+  "frame": 15,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   693,
+   95,
+   292,
+   619
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430960.241956,
+  "frame": 16,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   391,
+   89,
+   279,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430960.2419689,
+  "frame": 16,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   690,
+   95,
+   293,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430963.0543737,
+  "frame": 17,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   389,
+   89,
+   279,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430963.054388,
+  "frame": 17,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   688,
+   96,
+   294,
+   619
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430965.2712047,
+  "frame": 18,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   387,
+   88,
+   277,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430965.271217,
+  "frame": 18,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   688,
+   96,
+   292,
+   619
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430967.3442404,
+  "frame": 19,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   385,
+   89,
+   277,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430967.344252,
+  "frame": 19,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   687,
+   98,
+   290,
+   618
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430969.3757713,
+  "frame": 20,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   382,
+   88,
+   278,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430969.375784,
+  "frame": 20,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   685,
+   97,
+   292,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430970.992462,
+  "frame": 21,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   381,
+   87,
+   277,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430970.9924743,
+  "frame": 21,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   682,
+   97,
+   294,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430972.7930603,
+  "frame": 22,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   380,
+   86,
+   276,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430972.7930722,
+  "frame": 22,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   680,
+   96,
+   293,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430974.1390545,
+  "frame": 23,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   377,
+   87,
+   278,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430974.1390672,
+  "frame": 23,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   678,
+   96,
+   294,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430975.9098003,
+  "frame": 24,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   376,
+   86,
+   276,
+   628
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430975.9098246,
+  "frame": 24,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   676,
+   94,
+   295,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430977.6736538,
+  "frame": 25,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   374,
+   86,
+   278,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430977.6736653,
+  "frame": 25,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   672,
+   93,
+   296,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430979.4916246,
+  "frame": 26,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   373,
+   86,
+   276,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430979.491637,
+  "frame": 26,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   672,
+   92,
+   294,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430981.054418,
+  "frame": 27,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   370,
+   86,
+   275,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430981.0544307,
+  "frame": 27,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   671,
+   94,
+   292,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430982.5064187,
+  "frame": 28,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   370,
+   86,
+   273,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430982.5064309,
+  "frame": 28,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   670,
+   93,
+   293,
+   623
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430984.5099843,
+  "frame": 29,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   367,
+   86,
+   273,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430984.5099986,
+  "frame": 29,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   666,
+   94,
+   295,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430987.362204,
+  "frame": 30,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   363,
+   87,
+   275,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430987.3622174,
+  "frame": 30,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   662,
+   94,
+   293,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430991.090056,
+  "frame": 31,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   361,
+   87,
+   275,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430991.0900748,
+  "frame": 31,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   661,
+   94,
+   291,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430995.1145136,
+  "frame": 32,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   359,
+   87,
+   275,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430995.1145258,
+  "frame": 32,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   659,
+   94,
+   292,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430997.0266166,
+  "frame": 33,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   357,
+   87,
+   274,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430997.0266292,
+  "frame": 33,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   657,
+   94,
+   291,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430998.8249955,
+  "frame": 34,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   356,
+   87,
+   275,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789430998.8250074,
+  "frame": 34,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   655,
+   95,
+   290,
+   619
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431000.5876055,
+  "frame": 35,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   354,
+   88,
+   274,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431000.5876188,
+  "frame": 35,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   653,
+   96,
+   291,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431002.090896,
+  "frame": 36,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   352,
+   87,
+   275,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431002.090909,
+  "frame": 36,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   651,
+   96,
+   291,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431003.816257,
+  "frame": 37,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   349,
+   87,
+   276,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431003.8162687,
+  "frame": 37,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   650,
+   95,
+   290,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431005.4385526,
+  "frame": 38,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   347,
+   87,
+   277,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431005.438728,
+  "frame": 38,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   648,
+   94,
+   289,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431007.128159,
+  "frame": 39,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   345,
+   87,
+   277,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431007.128171,
+  "frame": 39,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   646,
+   93,
+   290,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431008.6592417,
+  "frame": 40,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   343,
+   88,
+   277,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431008.6592538,
+  "frame": 40,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   639,
+   94,
+   295,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431010.2633667,
+  "frame": 41,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   341,
+   88,
+   276,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431010.2633784,
+  "frame": 41,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   637,
+   94,
+   296,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431011.7870746,
+  "frame": 42,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   337,
+   89,
+   280,
+   627
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431011.7870874,
+  "frame": 42,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   637,
+   93,
+   293,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431013.6511743,
+  "frame": 43,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   336,
+   90,
+   278,
+   626
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431013.6511872,
+  "frame": 43,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   638,
+   93,
+   292,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431015.3372483,
+  "frame": 44,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   336,
+   88,
+   276,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431015.3372607,
+  "frame": 44,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   636,
+   93,
+   292,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431017.430765,
+  "frame": 45,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   333,
+   88,
+   275,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431017.430779,
+  "frame": 45,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   631,
+   94,
+   292,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431019.1255283,
+  "frame": 46,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   329,
+   90,
+   277,
+   628
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431019.1255414,
+  "frame": 46,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   629,
+   96,
+   292,
+   619
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431020.7000055,
+  "frame": 47,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   327,
+   89,
+   278,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431020.7000175,
+  "frame": 47,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   627,
+   96,
+   292,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431022.9299777,
+  "frame": 48,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   325,
+   88,
+   278,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431022.9299896,
+  "frame": 48,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   624,
+   97,
+   293,
+   618
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431026.2828777,
+  "frame": 49,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   323,
+   88,
+   277,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431026.2828903,
+  "frame": 49,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   624,
+   97,
+   291,
+   618
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431028.0402744,
+  "frame": 50,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   321,
+   89,
+   276,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431028.040287,
+  "frame": 50,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   623,
+   98,
+   290,
+   617
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431029.709286,
+  "frame": 51,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   319,
+   86,
+   275,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431029.7092988,
+  "frame": 51,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   621,
+   97,
+   291,
+   619
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431031.6790671,
+  "frame": 52,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   318,
+   86,
+   276,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431031.6790798,
+  "frame": 52,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   618,
+   97,
+   293,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431033.3718164,
+  "frame": 53,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   316,
+   86,
+   275,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431033.3718283,
+  "frame": 53,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   616,
+   96,
+   293,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431035.0693514,
+  "frame": 54,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   313,
+   86,
+   278,
+   628
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431035.0693634,
+  "frame": 54,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   614,
+   96,
+   294,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431036.769227,
+  "frame": 55,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   310,
+   86,
+   280,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431036.7692387,
+  "frame": 55,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   611,
+   95,
+   295,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431038.380845,
+  "frame": 56,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   310,
+   86,
+   277,
+   628
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431038.3808582,
+  "frame": 56,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   608,
+   93,
+   297,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431039.788384,
+  "frame": 57,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   309,
+   86,
+   276,
+   628
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431039.7883966,
+  "frame": 57,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   607,
+   93,
+   295,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431041.1417089,
+  "frame": 58,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   306,
+   86,
+   276,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431041.141721,
+  "frame": 58,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   607,
+   93,
+   293,
+   623
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431042.5317588,
+  "frame": 59,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   306,
+   86,
+   273,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431042.531772,
+  "frame": 59,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   606,
+   93,
+   293,
+   623
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431043.9724553,
+  "frame": 60,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   303,
+   86,
+   272,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431043.9724677,
+  "frame": 60,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   601,
+   94,
+   295,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431045.5859087,
+  "frame": 61,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   299,
+   87,
+   275,
+   631
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431045.5859208,
+  "frame": 61,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   599,
+   94,
+   292,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431047.3279374,
+  "frame": 62,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   297,
+   88,
+   276,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431047.32795,
+  "frame": 62,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   597,
+   94,
+   290,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431049.3755522,
+  "frame": 63,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   295,
+   87,
+   276,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431049.3755834,
+  "frame": 63,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   596,
+   94,
+   290,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431051.376904,
+  "frame": 64,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   293,
+   87,
+   275,
+   630
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431051.3769162,
+  "frame": 64,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   594,
+   94,
+   291,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431053.0863912,
+  "frame": 65,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   292,
+   89,
+   275,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431053.0864038,
+  "frame": 65,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   591,
+   95,
+   289,
+   620
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431055.4400194,
+  "frame": 66,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   290,
+   90,
+   275,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431055.4400325,
+  "frame": 66,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   589,
+   95,
+   291,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431056.946613,
+  "frame": 67,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   287,
+   89,
+   276,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431056.9466255,
+  "frame": 67,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   587,
+   96,
+   291,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431058.5396323,
+  "frame": 68,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   284,
+   88,
+   276,
+   629
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431058.5396452,
+  "frame": 68,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   585,
+   94,
+   290,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431060.8791444,
+  "frame": 69,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   282,
+   89,
+   278,
+   625
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431060.8791575,
+  "frame": 69,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   583,
+   94,
+   290,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431062.7215788,
+  "frame": 70,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   281,
+   89,
+   276,
+   627
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431062.7216349,
+  "frame": 70,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   582,
+   93,
+   290,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431065.4270134,
+  "frame": 71,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   278,
+   90,
+   278,
+   625
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431065.4270256,
+  "frame": 71,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   576,
+   94,
+   295,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431067.478829,
+  "frame": 72,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   276,
+   89,
+   277,
+   627
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431067.4788432,
+  "frame": 72,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   573,
+   94,
+   295,
+   621
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431069.8358917,
+  "frame": 73,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   274,
+   90,
+   278,
+   626
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431069.8359048,
+  "frame": 73,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   574,
+   93,
+   293,
+   622
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431072.1628075,
+  "frame": 74,
+  "event": "perception",
+  "track_id": 1,
+  "bbox": [
+   271,
+   89,
+   277,
+   627
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431072.1628194,
+  "frame": 74,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   573,
+   93,
+   293,
+   624
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431074.5712988,
+  "frame": 75,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   621,
+   149,
+   524,
+   565
+  ],
+  "hardhat_ratio": 0.93,
+  "zone_frames": 0,
+  "violation_frames": 1,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431076.413766,
+  "frame": 76,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   619,
+   150,
+   525,
+   564
+  ],
+  "hardhat_ratio": 0.93,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431078.4840891,
+  "frame": 77,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   616,
+   151,
+   525,
+   564
+  ],
+  "hardhat_ratio": 0.87,
+  "zone_frames": 0,
+  "violation_frames": 1,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431080.4269676,
+  "frame": 78,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   614,
+   150,
+   526,
+   564
+  ],
+  "hardhat_ratio": 0.8,
+  "zone_frames": 0,
+  "violation_frames": 2,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431081.705348,
+  "frame": 79,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   612,
+   149,
+   524,
+   565
+  ],
+  "hardhat_ratio": 0.73,
+  "zone_frames": 0,
+  "violation_frames": 3,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431083.4421904,
+  "frame": 80,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   611,
+   149,
+   523,
+   564
+  ],
+  "hardhat_ratio": 0.67,
+  "zone_frames": 0,
+  "violation_frames": 4,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431084.9719386,
+  "frame": 81,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   610,
+   150,
+   523,
+   563
+  ],
+  "hardhat_ratio": 0.6,
+  "zone_frames": 0,
+  "violation_frames": 5,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431086.446435,
+  "frame": 82,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   608,
+   150,
+   523,
+   563
+  ],
+  "hardhat_ratio": 0.53,
+  "zone_frames": 0,
+  "violation_frames": 6,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431088.3825092,
+  "frame": 83,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   606,
+   150,
+   523,
+   563
+  ],
+  "hardhat_ratio": 0.47,
+  "zone_frames": 0,
+  "violation_frames": 7,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431088.3825405,
+  "frame": 83,
+  "event": "incident_opened",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "no_hardhat",
+   "motion"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431088.3826208,
+  "frame": 83,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431090.276407,
+  "frame": 84,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   604,
+   151,
+   523,
+   562
+  ],
+  "hardhat_ratio": 0.4,
+  "zone_frames": 0,
+  "violation_frames": 8,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431090.2764356,
+  "frame": 84,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431092.2515328,
+  "frame": 85,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   601,
+   151,
+   523,
+   562
+  ],
+  "hardhat_ratio": 0.33,
+  "zone_frames": 0,
+  "violation_frames": 9,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431092.2515554,
+  "frame": 85,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431093.639506,
+  "frame": 86,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   597,
+   151,
+   525,
+   562
+  ],
+  "hardhat_ratio": 0.27,
+  "zone_frames": 0,
+  "violation_frames": 10,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431093.6395273,
+  "frame": 86,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431095.0122116,
+  "frame": 87,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   591,
+   151,
+   530,
+   564
+  ],
+  "hardhat_ratio": 0.2,
+  "zone_frames": 0,
+  "violation_frames": 11,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431095.012234,
+  "frame": 87,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431096.5392387,
+  "frame": 88,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   588,
+   151,
+   531,
+   564
+  ],
+  "hardhat_ratio": 0.13,
+  "zone_frames": 0,
+  "violation_frames": 12,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431096.5392606,
+  "frame": 88,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431098.0064764,
+  "frame": 89,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   586,
+   152,
+   531,
+   563
+  ],
+  "hardhat_ratio": 0.07,
+  "zone_frames": 0,
+  "violation_frames": 13,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431098.0065002,
+  "frame": 89,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431099.7037685,
+  "frame": 90,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   589,
+   152,
+   524,
+   562
+  ],
+  "hardhat_ratio": 0.07,
+  "zone_frames": 0,
+  "violation_frames": 14,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431099.7037911,
+  "frame": 90,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431101.6925375,
+  "frame": 91,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   587,
+   152,
+   524,
+   561
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 15,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431101.6945908,
+  "frame": 91,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431103.5069451,
+  "frame": 92,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   589,
+   149,
+   520,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 16,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431103.5069668,
+  "frame": 92,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431105.1003256,
+  "frame": 93,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   587,
+   148,
+   519,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 17,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431105.100347,
+  "frame": 93,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431107.203872,
+  "frame": 94,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   584,
+   146,
+   521,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 18,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431107.2038963,
+  "frame": 94,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431108.5827117,
+  "frame": 95,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   581,
+   146,
+   522,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 19,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431108.582734,
+  "frame": 95,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431110.23637,
+  "frame": 96,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   580,
+   147,
+   520,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 20,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431110.2363923,
+  "frame": 96,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431111.8137953,
+  "frame": 97,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   578,
+   146,
+   520,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 21,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431111.813828,
+  "frame": 97,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431113.0002873,
+  "frame": 98,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   575,
+   147,
+   522,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 22,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431113.000309,
+  "frame": 98,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431113.8784328,
+  "frame": 99,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   573,
+   148,
+   522,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 23,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431113.8784542,
+  "frame": 99,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431114.6946213,
+  "frame": 100,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   571,
+   148,
+   521,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 24,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431114.6946445,
+  "frame": 100,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431115.810693,
+  "frame": 101,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   568,
+   149,
+   523,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 25,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431115.8107147,
+  "frame": 101,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431116.6025083,
+  "frame": 102,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   564,
+   148,
+   526,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 26,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431116.6025314,
+  "frame": 102,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431117.9489787,
+  "frame": 103,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   562,
+   148,
+   526,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 27,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431117.9490025,
+  "frame": 103,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431119.4211082,
+  "frame": 104,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   561,
+   147,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 28,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431119.421131,
+  "frame": 104,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431120.7153316,
+  "frame": 105,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   558,
+   147,
+   526,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 29,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431120.7153535,
+  "frame": 105,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431122.0296376,
+  "frame": 106,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   559,
+   146,
+   524,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 30,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431122.0296602,
+  "frame": 106,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431123.2539945,
+  "frame": 107,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   557,
+   147,
+   524,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 31,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431123.2540169,
+  "frame": 107,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431124.813299,
+  "frame": 108,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   553,
+   148,
+   525,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 32,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431124.8133206,
+  "frame": 108,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431125.6863444,
+  "frame": 109,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   549,
+   150,
+   526,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 33,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431125.686367,
+  "frame": 109,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431126.6617424,
+  "frame": 110,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   548,
+   149,
+   525,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 34,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431126.6617646,
+  "frame": 110,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431127.5854208,
+  "frame": 111,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   547,
+   149,
+   525,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 35,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431127.5854433,
+  "frame": 111,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431128.4133117,
+  "frame": 112,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   545,
+   150,
+   524,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 36,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431128.4133396,
+  "frame": 112,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431129.430195,
+  "frame": 113,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   544,
+   150,
+   524,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 37,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431129.430217,
+  "frame": 113,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431130.6845336,
+  "frame": 114,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   542,
+   151,
+   524,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 38,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431130.6845555,
+  "frame": 114,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431132.3945825,
+  "frame": 115,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   539,
+   152,
+   525,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 39,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431132.3946042,
+  "frame": 115,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431133.3488731,
+  "frame": 116,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   535,
+   151,
+   527,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 40,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431133.3489,
+  "frame": 116,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431134.1919324,
+  "frame": 117,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   530,
+   151,
+   530,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 41,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431134.1919546,
+  "frame": 117,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431135.0010686,
+  "frame": 118,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   527,
+   152,
+   529,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 42,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431135.001092,
+  "frame": 118,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431135.8150377,
+  "frame": 119,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   525,
+   151,
+   530,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 43,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431135.8150625,
+  "frame": 119,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431136.7129803,
+  "frame": 120,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   522,
+   153,
+   530,
+   562
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 44,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431136.7130024,
+  "frame": 120,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431137.514091,
+  "frame": 121,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   519,
+   152,
+   531,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 45,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431137.5141132,
+  "frame": 121,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431138.3522751,
+  "frame": 122,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   527,
+   149,
+   521,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 46,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431138.352299,
+  "frame": 122,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431139.194406,
+  "frame": 123,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   526,
+   149,
+   519,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 47,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431139.1944299,
+  "frame": 123,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431140.0456467,
+  "frame": 124,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   524,
+   148,
+   519,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 48,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431140.0456698,
+  "frame": 124,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431140.8899786,
+  "frame": 125,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   521,
+   146,
+   520,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 49,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431140.8900013,
+  "frame": 125,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431141.8973417,
+  "frame": 126,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   518,
+   146,
+   521,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 50,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431141.8973649,
+  "frame": 126,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431142.7392533,
+  "frame": 127,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   516,
+   147,
+   520,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 51,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431142.7392776,
+  "frame": 127,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431143.5748553,
+  "frame": 128,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   515,
+   147,
+   519,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 52,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431143.5748782,
+  "frame": 128,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431144.5684493,
+  "frame": 129,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   511,
+   147,
+   521,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 53,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431144.5684724,
+  "frame": 129,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431145.3809648,
+  "frame": 130,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   509,
+   148,
+   521,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 54,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431145.380987,
+  "frame": 130,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431146.5571637,
+  "frame": 131,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   507,
+   149,
+   521,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 55,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431146.5571895,
+  "frame": 131,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431147.8148656,
+  "frame": 132,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   504,
+   149,
+   522,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 56,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431147.814889,
+  "frame": 132,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431149.0065262,
+  "frame": 133,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   500,
+   148,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 57,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431149.0065985,
+  "frame": 133,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431149.985476,
+  "frame": 134,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   499,
+   148,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 58,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431149.985499,
+  "frame": 134,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431151.784553,
+  "frame": 135,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   496,
+   148,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 59,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431151.784601,
+  "frame": 135,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431153.7360578,
+  "frame": 136,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   494,
+   147,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 60,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431153.7360816,
+  "frame": 136,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431155.2091372,
+  "frame": 137,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   495,
+   147,
+   523,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 61,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431155.2091663,
+  "frame": 137,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431156.1114447,
+  "frame": 138,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   493,
+   148,
+   523,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 62,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431156.1114671,
+  "frame": 138,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431156.9359956,
+  "frame": 139,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   489,
+   148,
+   524,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 63,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431156.9360185,
+  "frame": 139,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431157.8397267,
+  "frame": 140,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   486,
+   147,
+   525,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 64,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431157.839751,
+  "frame": 140,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431158.6884224,
+  "frame": 141,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   484,
+   146,
+   524,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 65,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431158.688445,
+  "frame": 141,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431159.5463676,
+  "frame": 142,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   484,
+   147,
+   522,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 66,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431159.5463903,
+  "frame": 142,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431160.4157424,
+  "frame": 143,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   483,
+   148,
+   521,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 67,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431160.4157655,
+  "frame": 143,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431161.3526046,
+  "frame": 144,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   480,
+   151,
+   522,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 68,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431161.3526278,
+  "frame": 144,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431162.470879,
+  "frame": 145,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   478,
+   151,
+   523,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 69,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431162.4709022,
+  "frame": 145,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431163.3880973,
+  "frame": 146,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   474,
+   152,
+   524,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 70,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431163.3881207,
+  "frame": 146,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431164.896061,
+  "frame": 147,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   471,
+   152,
+   526,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 71,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431164.8960855,
+  "frame": 147,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431166.3370378,
+  "frame": 148,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   467,
+   152,
+   529,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 72,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431166.3370588,
+  "frame": 148,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431167.7476482,
+  "frame": 149,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   461,
+   152,
+   530,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 73,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431167.7476716,
+  "frame": 149,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431169.208439,
+  "frame": 150,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   464,
+   124,
+   527,
+   593
+  ],
+  "hardhat_ratio": 0.07,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431169.2084615,
+  "frame": 150,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431170.5317578,
+  "frame": 151,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   469,
+   126,
+   524,
+   589
+  ],
+  "hardhat_ratio": 0.13,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431170.53178,
+  "frame": 151,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431171.776841,
+  "frame": 152,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   473,
+   126,
+   522,
+   589
+  ],
+  "hardhat_ratio": 0.2,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431171.776865,
+  "frame": 152,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431173.346494,
+  "frame": 153,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   476,
+   126,
+   522,
+   590
+  ],
+  "hardhat_ratio": 0.27,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431173.346517,
+  "frame": 153,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431175.023089,
+  "frame": 154,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   477,
+   126,
+   522,
+   589
+  ],
+  "hardhat_ratio": 0.33,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431175.0231123,
+  "frame": 154,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431176.3958764,
+  "frame": 155,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   478,
+   126,
+   526,
+   588
+  ],
+  "hardhat_ratio": 0.4,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431176.3959005,
+  "frame": 155,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431177.7778203,
+  "frame": 156,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   480,
+   126,
+   524,
+   588
+  ],
+  "hardhat_ratio": 0.47,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431177.7778442,
+  "frame": 156,
+  "event": "approval_requested",
+  "incident_id": "INC-0001",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431179.3051345,
+  "frame": 157,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   482,
+   126,
+   525,
+   589
+  ],
+  "hardhat_ratio": 0.53,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431179.3051472,
+  "frame": 157,
+  "event": "decision_change",
+  "incident_id": "INC-0001",
+  "change": "request_approval -> withdrawn",
+  "cause": "vision: hardhat detected / zone exited"
+ },
+ {
+  "t": 1789431180.4240127,
+  "frame": 158,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   483,
+   125,
+   525,
+   591
+  ],
+  "hardhat_ratio": 0.6,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431181.5746813,
+  "frame": 159,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   486,
+   125,
+   525,
+   591
+  ],
+  "hardhat_ratio": 0.67,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431182.4792497,
+  "frame": 160,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   490,
+   126,
+   523,
+   590
+  ],
+  "hardhat_ratio": 0.73,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431183.318107,
+  "frame": 161,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   492,
+   126,
+   522,
+   590
+  ],
+  "hardhat_ratio": 0.8,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431184.337475,
+  "frame": 162,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   495,
+   126,
+   522,
+   590
+  ],
+  "hardhat_ratio": 0.87,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431185.3147917,
+  "frame": 163,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   496,
+   126,
+   524,
+   590
+  ],
+  "hardhat_ratio": 0.93,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431186.4175215,
+  "frame": 164,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   497,
+   126,
+   524,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431187.5184865,
+  "frame": 165,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   500,
+   125,
+   524,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431188.8553534,
+  "frame": 166,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   502,
+   124,
+   523,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431190.2191029,
+  "frame": 167,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   504,
+   125,
+   522,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431191.331075,
+  "frame": 168,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   507,
+   126,
+   522,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431192.4990573,
+  "frame": 169,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   509,
+   126,
+   521,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431193.6228986,
+  "frame": 170,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   510,
+   127,
+   521,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431195.1872969,
+  "frame": 171,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   511,
+   127,
+   522,
+   589
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431196.2890837,
+  "frame": 172,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   513,
+   126,
+   522,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431197.3353121,
+  "frame": 173,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   516,
+   126,
+   521,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431198.7142284,
+  "frame": 174,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   519,
+   125,
+   519,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431200.2135189,
+  "frame": 175,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   521,
+   126,
+   519,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431201.1516972,
+  "frame": 176,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   525,
+   126,
+   517,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431202.0938969,
+  "frame": 177,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   527,
+   126,
+   517,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431203.4415357,
+  "frame": 178,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   527,
+   127,
+   520,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431204.9684744,
+  "frame": 179,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   528,
+   126,
+   522,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431206.4003425,
+  "frame": 180,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   527,
+   125,
+   528,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431208.4203527,
+  "frame": 181,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   528,
+   124,
+   527,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431209.6404154,
+  "frame": 182,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   533,
+   126,
+   524,
+   589
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431210.69837,
+  "frame": 183,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   537,
+   126,
+   522,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431211.7222836,
+  "frame": 184,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   540,
+   126,
+   521,
+   589
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431213.183698,
+  "frame": 185,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   542,
+   126,
+   522,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431214.2946668,
+  "frame": 186,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   542,
+   126,
+   524,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431215.135049,
+  "frame": 187,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   544,
+   125,
+   524,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431216.4169734,
+  "frame": 188,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   546,
+   125,
+   526,
+   589
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431218.0541317,
+  "frame": 189,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   547,
+   125,
+   526,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431219.1413472,
+  "frame": 190,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   550,
+   125,
+   526,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431220.4934456,
+  "frame": 191,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   554,
+   125,
+   524,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431222.813279,
+  "frame": 192,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   556,
+   125,
+   525,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431225.5897648,
+  "frame": 193,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   558,
+   125,
+   524,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431226.9791045,
+  "frame": 194,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   560,
+   126,
+   525,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431227.8471968,
+  "frame": 195,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   562,
+   125,
+   525,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431228.6808648,
+  "frame": 196,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   564,
+   125,
+   524,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431229.805134,
+  "frame": 197,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   565,
+   125,
+   524,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431230.6260672,
+  "frame": 198,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   568,
+   125,
+   523,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431231.8873093,
+  "frame": 199,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   571,
+   125,
+   521,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431233.3953297,
+  "frame": 200,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   573,
+   126,
+   520,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431235.2062714,
+  "frame": 201,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   574,
+   127,
+   521,
+   589
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431236.0364323,
+  "frame": 202,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   576,
+   126,
+   522,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431236.9815161,
+  "frame": 203,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   578,
+   125,
+   522,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431237.8816645,
+  "frame": 204,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   580,
+   125,
+   522,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431238.7869868,
+  "frame": 205,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   583,
+   125,
+   519,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431239.681523,
+  "frame": 206,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   586,
+   125,
+   518,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431240.5403907,
+  "frame": 207,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   589,
+   126,
+   517,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431241.3896403,
+  "frame": 208,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   591,
+   127,
+   517,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431242.3251154,
+  "frame": 209,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   591,
+   127,
+   519,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431243.2121592,
+  "frame": 210,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   589,
+   125,
+   526,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431244.0846286,
+  "frame": 211,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   592,
+   124,
+   527,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431244.9580379,
+  "frame": 212,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   594,
+   124,
+   526,
+   592
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431245.9476078,
+  "frame": 213,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   598,
+   126,
+   523,
+   589
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431246.7754514,
+  "frame": 214,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   602,
+   126,
+   521,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431247.6244318,
+  "frame": 215,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   605,
+   126,
+   521,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431248.4206994,
+  "frame": 216,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   606,
+   125,
+   521,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431249.285035,
+  "frame": 217,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   606,
+   126,
+   524,
+   587
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431250.0801277,
+  "frame": 218,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   608,
+   125,
+   523,
+   588
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431250.9328854,
+  "frame": 219,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   610,
+   125,
+   524,
+   589
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431251.9845188,
+  "frame": 220,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   611,
+   125,
+   524,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431253.0244513,
+  "frame": 221,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   614,
+   125,
+   524,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431253.9425879,
+  "frame": 222,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   619,
+   125,
+   522,
+   590
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431254.8200002,
+  "frame": 223,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   621,
+   125,
+   522,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431255.637519,
+  "frame": 224,
+  "event": "perception",
+  "track_id": 2,
+  "bbox": [
+   622,
+   125,
+   523,
+   591
+  ],
+  "hardhat_ratio": 1.0,
+  "zone_frames": 0,
+  "violation_frames": 0,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431256.474832,
+  "frame": 225,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   419,
+   86,
+   210,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 1,
+  "violation_frames": 1,
+  "risk": 40.0,
+  "reasons": [
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431256.4748614,
+  "frame": 225,
+  "event": "incident_opened",
+  "incident_id": "INC-0002",
+  "kinds": [
+   "restricted_zone",
+   "motion"
+  ],
+  "severity": 40.0
+ },
+ {
+  "t": 1789431256.4748762,
+  "frame": 225,
+  "event": "approval_requested",
+  "incident_id": "INC-0002",
+  "kinds": [
+   "motion",
+   "restricted_zone"
+  ],
+  "severity": 40.0
+ },
+ {
+  "t": 1789431257.2971175,
+  "frame": 226,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   418,
+   85,
+   210,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 2,
+  "violation_frames": 2,
+  "risk": 35.0,
+  "reasons": [
+   "restricted_zone"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431257.2971294,
+  "frame": 226,
+  "event": "decision_change",
+  "incident_id": "INC-0002",
+  "change": "request_approval -> withdrawn",
+  "cause": "vision: hardhat detected / zone exited"
+ },
+ {
+  "t": 1789431258.1338882,
+  "frame": 227,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   417,
+   86,
+   210,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 3,
+  "violation_frames": 3,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431258.1339116,
+  "frame": 227,
+  "event": "incident_opened",
+  "incident_id": "INC-0003",
+  "kinds": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "severity": 75.0
+ },
+ {
+  "t": 1789431258.1339273,
+  "frame": 227,
+  "event": "approval_requested",
+  "incident_id": "INC-0003",
+  "kinds": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "severity": 75.0
+ },
+ {
+  "t": 1789431258.9975114,
+  "frame": 228,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   416,
+   84,
+   209,
+   544
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 4,
+  "violation_frames": 4,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431258.9975371,
+  "frame": 228,
+  "event": "decision_change",
+  "incident_id": "INC-0003",
+  "change": "request_approval -> escalate",
+  "cause": "vision: persistent violation / zone intrusion"
+ },
+ {
+  "t": 1789431259.0081866,
+  "frame": 228,
+  "event": "action_executed",
+  "incident_id": "INC-0003",
+  "action": "safety_alert",
+  "auto": true,
+  "payload": {
+   "incident_id": "INC-0003",
+   "track_id": 4,
+   "kinds": [
+    "motion",
+    "no_hardhat",
+    "restricted_zone"
+   ],
+   "severity": 80.0,
+   "auto": true,
+   "frames": [
+    227,
+    228
+   ],
+   "evidence_path": "assets/evidence/INC-0003.jpg"
+  }
+ },
+ {
+  "t": 1789431259.9172006,
+  "frame": 229,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   415,
+   84,
+   209,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 5,
+  "violation_frames": 5,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431260.9154303,
+  "frame": 230,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   413,
+   82,
+   209,
+   551
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 6,
+  "violation_frames": 6,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431262.378294,
+  "frame": 231,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   413,
+   86,
+   208,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 7,
+  "violation_frames": 7,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431264.1251159,
+  "frame": 232,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   411,
+   86,
+   207,
+   541
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 8,
+  "violation_frames": 8,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431265.1472213,
+  "frame": 233,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   410,
+   86,
+   207,
+   542
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 9,
+  "violation_frames": 9,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431265.9864638,
+  "frame": 234,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   407,
+   85,
+   208,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 10,
+  "violation_frames": 10,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431266.8818421,
+  "frame": 235,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   405,
+   83,
+   208,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 11,
+  "violation_frames": 11,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431267.8879712,
+  "frame": 236,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   405,
+   84,
+   209,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 12,
+  "violation_frames": 12,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431268.708168,
+  "frame": 237,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   404,
+   85,
+   209,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 13,
+  "violation_frames": 13,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431269.5836267,
+  "frame": 238,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   402,
+   86,
+   208,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 14,
+  "violation_frames": 14,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431270.682594,
+  "frame": 239,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   401,
+   85,
+   208,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 15,
+  "violation_frames": 15,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431271.7118905,
+  "frame": 240,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   398,
+   82,
+   209,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 16,
+  "violation_frames": 16,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431272.794256,
+  "frame": 241,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   397,
+   82,
+   209,
+   552
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 17,
+  "violation_frames": 17,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431273.8148243,
+  "frame": 242,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   395,
+   82,
+   209,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 18,
+  "violation_frames": 18,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431274.9815257,
+  "frame": 243,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   393,
+   83,
+   208,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 19,
+  "violation_frames": 19,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431276.3414102,
+  "frame": 244,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   392,
+   83,
+   209,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 20,
+  "violation_frames": 20,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431277.3754873,
+  "frame": 245,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   390,
+   82,
+   210,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 21,
+  "violation_frames": 21,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431278.5110445,
+  "frame": 246,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   388,
+   82,
+   210,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 22,
+  "violation_frames": 22,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431279.4939134,
+  "frame": 247,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   386,
+   82,
+   211,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 23,
+  "violation_frames": 23,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431280.5154567,
+  "frame": 248,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   386,
+   82,
+   211,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 24,
+  "violation_frames": 24,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431281.5286381,
+  "frame": 249,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   384,
+   82,
+   210,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 25,
+  "violation_frames": 25,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431282.5020032,
+  "frame": 250,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   384,
+   81,
+   210,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 26,
+  "violation_frames": 26,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431283.609844,
+  "frame": 251,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   381,
+   80,
+   210,
+   554
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 27,
+  "violation_frames": 27,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431284.7173758,
+  "frame": 252,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   381,
+   82,
+   210,
+   552
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 28,
+  "violation_frames": 28,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431285.801019,
+  "frame": 253,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   380,
+   81,
+   209,
+   552
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 29,
+  "violation_frames": 29,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431286.9190283,
+  "frame": 254,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   379,
+   83,
+   208,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 30,
+  "violation_frames": 30,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431287.9785852,
+  "frame": 255,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   376,
+   84,
+   209,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 31,
+  "violation_frames": 31,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431289.1854556,
+  "frame": 256,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   375,
+   85,
+   209,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 32,
+  "violation_frames": 32,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431290.1972609,
+  "frame": 257,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   374,
+   83,
+   209,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 33,
+  "violation_frames": 33,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431291.5338752,
+  "frame": 258,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   373,
+   83,
+   209,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 34,
+  "violation_frames": 34,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431293.0827165,
+  "frame": 259,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   371,
+   84,
+   208,
+   551
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 35,
+  "violation_frames": 35,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431295.420759,
+  "frame": 260,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   370,
+   87,
+   208,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 36,
+  "violation_frames": 36,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431296.3824337,
+  "frame": 261,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   369,
+   86,
+   208,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 37,
+  "violation_frames": 37,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431297.7484791,
+  "frame": 262,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   366,
+   83,
+   210,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 38,
+  "violation_frames": 38,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431298.7301855,
+  "frame": 263,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   365,
+   82,
+   210,
+   555
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 39,
+  "violation_frames": 39,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431299.5968053,
+  "frame": 264,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   363,
+   83,
+   210,
+   552
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 40,
+  "violation_frames": 40,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431300.6278772,
+  "frame": 265,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   361,
+   85,
+   209,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 41,
+  "violation_frames": 41,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431301.625398,
+  "frame": 266,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   358,
+   85,
+   210,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 42,
+  "violation_frames": 42,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431302.6142762,
+  "frame": 267,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   357,
+   85,
+   210,
+   546
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 43,
+  "violation_frames": 43,
+  "risk": 75.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431303.6298554,
+  "frame": 268,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   355,
+   81,
+   211,
+   555
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 44,
+  "violation_frames": 44,
+  "risk": 80.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431304.5781403,
+  "frame": 269,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   354,
+   83,
+   211,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 45,
+  "violation_frames": 45,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431305.5249941,
+  "frame": 270,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   353,
+   86,
+   209,
+   546
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 46,
+  "violation_frames": 46,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431306.9403007,
+  "frame": 271,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   353,
+   85,
+   210,
+   544
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 47,
+  "violation_frames": 47,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431308.097264,
+  "frame": 272,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   351,
+   84,
+   209,
+   546
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 48,
+  "violation_frames": 48,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431309.2046218,
+  "frame": 273,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   350,
+   83,
+   209,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 49,
+  "violation_frames": 49,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431310.2687514,
+  "frame": 274,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   349,
+   84,
+   208,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 50,
+  "violation_frames": 50,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431311.4915166,
+  "frame": 275,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   348,
+   84,
+   208,
+   546
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 51,
+  "violation_frames": 51,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431312.8375926,
+  "frame": 276,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   346,
+   86,
+   207,
+   543
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 52,
+  "violation_frames": 52,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431314.3732636,
+  "frame": 277,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   344,
+   85,
+   208,
+   544
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 53,
+  "violation_frames": 53,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431316.3041596,
+  "frame": 278,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   343,
+   84,
+   208,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 54,
+  "violation_frames": 54,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431318.7018113,
+  "frame": 279,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   341,
+   81,
+   209,
+   552
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 55,
+  "violation_frames": 55,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431320.5841055,
+  "frame": 280,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   340,
+   82,
+   209,
+   551
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 56,
+  "violation_frames": 56,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431321.5344148,
+  "frame": 281,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   339,
+   85,
+   207,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 57,
+  "violation_frames": 57,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431322.4221823,
+  "frame": 282,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   338,
+   86,
+   208,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 58,
+  "violation_frames": 58,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431323.5995226,
+  "frame": 283,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   336,
+   84,
+   208,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 59,
+  "violation_frames": 59,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431324.9823644,
+  "frame": 284,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   334,
+   83,
+   209,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 60,
+  "violation_frames": 60,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431326.3414955,
+  "frame": 285,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   332,
+   82,
+   209,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 61,
+  "violation_frames": 61,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431327.467161,
+  "frame": 286,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   331,
+   82,
+   209,
+   552
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 62,
+  "violation_frames": 62,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431328.7774282,
+  "frame": 287,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   328,
+   84,
+   209,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 63,
+  "violation_frames": 63,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431330.0222168,
+  "frame": 288,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   326,
+   83,
+   209,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 64,
+  "violation_frames": 64,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431331.3066518,
+  "frame": 289,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   324,
+   81,
+   210,
+   554
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 65,
+  "violation_frames": 65,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431332.8815327,
+  "frame": 290,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   324,
+   81,
+   210,
+   554
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 66,
+  "violation_frames": 66,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431334.5797243,
+  "frame": 291,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   322,
+   82,
+   210,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 67,
+  "violation_frames": 67,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431335.737312,
+  "frame": 292,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   321,
+   83,
+   210,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 68,
+  "violation_frames": 68,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431336.7711527,
+  "frame": 293,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   319,
+   82,
+   210,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 69,
+  "violation_frames": 69,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431338.0539525,
+  "frame": 294,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   319,
+   81,
+   210,
+   551
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 70,
+  "violation_frames": 70,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431339.1331356,
+  "frame": 295,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   317,
+   80,
+   210,
+   555
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 71,
+  "violation_frames": 71,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431340.1138892,
+  "frame": 296,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   317,
+   82,
+   209,
+   551
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 72,
+  "violation_frames": 72,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431341.1786938,
+  "frame": 297,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   316,
+   82,
+   209,
+   551
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 73,
+  "violation_frames": 73,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431342.0743585,
+  "frame": 298,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   314,
+   85,
+   208,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 74,
+  "violation_frames": 74,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431343.1558976,
+  "frame": 299,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   312,
+   84,
+   208,
+   546
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 75,
+  "violation_frames": 75,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431344.2695246,
+  "frame": 300,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   310,
+   85,
+   209,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 76,
+  "violation_frames": 76,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431345.503482,
+  "frame": 301,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   310,
+   84,
+   209,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 77,
+  "violation_frames": 77,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431346.6039538,
+  "frame": 302,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   308,
+   84,
+   209,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 78,
+  "violation_frames": 78,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431347.4358747,
+  "frame": 303,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   307,
+   85,
+   208,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 79,
+  "violation_frames": 79,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431348.5285091,
+  "frame": 304,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   305,
+   87,
+   208,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 80,
+  "violation_frames": 80,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431350.2354558,
+  "frame": 305,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   304,
+   86,
+   209,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 81,
+  "violation_frames": 81,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431351.6774464,
+  "frame": 306,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   301,
+   83,
+   210,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 82,
+  "violation_frames": 82,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431353.5783265,
+  "frame": 307,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   300,
+   84,
+   210,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 83,
+  "violation_frames": 83,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431356.9766464,
+  "frame": 308,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   297,
+   87,
+   209,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 84,
+  "violation_frames": 84,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431360.1366365,
+  "frame": 309,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   296,
+   86,
+   209,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 85,
+  "violation_frames": 85,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431362.5746386,
+  "frame": 310,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   293,
+   84,
+   211,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 86,
+  "violation_frames": 86,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431364.9274657,
+  "frame": 311,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   291,
+   84,
+   211,
+   551
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 87,
+  "violation_frames": 87,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431366.826238,
+  "frame": 312,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   291,
+   82,
+   211,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 88,
+  "violation_frames": 88,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431368.1266353,
+  "frame": 313,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   290,
+   87,
+   210,
+   546
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 89,
+  "violation_frames": 89,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431369.7432725,
+  "frame": 314,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   289,
+   87,
+   210,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 90,
+  "violation_frames": 90,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431370.8371987,
+  "frame": 315,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   288,
+   85,
+   209,
+   546
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 91,
+  "violation_frames": 91,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431371.9002993,
+  "frame": 316,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   287,
+   84,
+   209,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 92,
+  "violation_frames": 92,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431372.8423045,
+  "frame": 317,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   285,
+   84,
+   209,
+   551
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 93,
+  "violation_frames": 93,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431373.782627,
+  "frame": 318,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   284,
+   85,
+   209,
+   548
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 94,
+  "violation_frames": 94,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431374.7321675,
+  "frame": 319,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   282,
+   85,
+   208,
+   545
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 95,
+  "violation_frames": 95,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431376.5894094,
+  "frame": 320,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   281,
+   85,
+   208,
+   547
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 96,
+  "violation_frames": 96,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431377.9778314,
+  "frame": 321,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   279,
+   84,
+   209,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 97,
+  "violation_frames": 97,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431379.1424642,
+  "frame": 322,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   277,
+   81,
+   209,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 98,
+  "violation_frames": 98,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431380.4373887,
+  "frame": 323,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   276,
+   82,
+   209,
+   554
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 99,
+  "violation_frames": 99,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431382.0938783,
+  "frame": 324,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   276,
+   84,
+   209,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 100,
+  "violation_frames": 100,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431383.6461205,
+  "frame": 325,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   274,
+   85,
+   207,
+   549
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 101,
+  "violation_frames": 101,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431384.971508,
+  "frame": 326,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   273,
+   84,
+   207,
+   550
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 102,
+  "violation_frames": 102,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431386.203383,
+  "frame": 327,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   270,
+   82,
+   209,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 103,
+  "violation_frames": 103,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431387.5809703,
+  "frame": 328,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   269,
+   82,
+   209,
+   553
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 104,
+  "violation_frames": 104,
+  "risk": 85.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431389.1146197,
+  "frame": 329,
+  "event": "perception",
+  "track_id": 4,
+  "bbox": [
+   267,
+   82,
+   209,
+   552
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 105,
+  "violation_frames": 105,
+  "risk": 90.0,
+  "reasons": [
+   "no_hardhat",
+   "restricted_zone",
+   "persistent",
+   "motion"
+  ],
+  "decision": "escalate"
+ },
+ {
+  "t": 1789431390.7833984,
+  "frame": 330,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   461,
+   152,
+   530,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 1,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431392.1805537,
+  "frame": 331,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   465,
+   152,
+   529,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 2,
+  "risk": 5.0,
+  "reasons": [
+   "motion"
+  ],
+  "decision": "dismiss"
+ },
+ {
+  "t": 1789431394.0989661,
+  "frame": 332,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   470,
+   152,
+   526,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 3,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431394.0989885,
+  "frame": 332,
+  "event": "incident_opened",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "no_hardhat",
+   "motion"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431394.0990036,
+  "frame": 332,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431395.6998518,
+  "frame": 333,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   475,
+   152,
+   524,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 4,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431395.6998737,
+  "frame": 333,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431397.3251877,
+  "frame": 334,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   478,
+   150,
+   522,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 5,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431397.3252108,
+  "frame": 334,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431398.4565816,
+  "frame": 335,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   480,
+   150,
+   523,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 6,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431398.4566047,
+  "frame": 335,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431399.395656,
+  "frame": 336,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   481,
+   149,
+   523,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 7,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431399.395679,
+  "frame": 336,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431400.203242,
+  "frame": 337,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   482,
+   150,
+   524,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 8,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431400.2032638,
+  "frame": 337,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431401.5013986,
+  "frame": 338,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   484,
+   147,
+   525,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 9,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431401.5014198,
+  "frame": 338,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431402.747835,
+  "frame": 339,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   486,
+   146,
+   526,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 10,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431402.7478573,
+  "frame": 339,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431404.1246505,
+  "frame": 340,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   489,
+   147,
+   525,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 11,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431404.1246734,
+  "frame": 340,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431405.6004665,
+  "frame": 341,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   494,
+   147,
+   523,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 12,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431405.6004896,
+  "frame": 341,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431406.5815368,
+  "frame": 342,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   493,
+   148,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 13,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431406.5815773,
+  "frame": 342,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431408.2048697,
+  "frame": 343,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   494,
+   147,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 14,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431408.2048929,
+  "frame": 343,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431409.4225934,
+  "frame": 344,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   496,
+   147,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 15,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431409.4226162,
+  "frame": 344,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431410.3127782,
+  "frame": 345,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   499,
+   148,
+   525,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 16,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431410.3128011,
+  "frame": 345,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431411.6350052,
+  "frame": 346,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   500,
+   148,
+   526,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 17,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431411.635031,
+  "frame": 346,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431413.0293581,
+  "frame": 347,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   504,
+   149,
+   523,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 18,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431413.0293803,
+  "frame": 347,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431414.3892756,
+  "frame": 348,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   507,
+   148,
+   520,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 19,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431414.3892984,
+  "frame": 348,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431415.8379462,
+  "frame": 349,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   509,
+   148,
+   520,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 20,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431415.8379683,
+  "frame": 349,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431417.0743775,
+  "frame": 350,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   511,
+   147,
+   520,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 21,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431417.0744007,
+  "frame": 350,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431418.4346092,
+  "frame": 351,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   514,
+   147,
+   519,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 22,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431418.4346328,
+  "frame": 351,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431420.0862978,
+  "frame": 352,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   516,
+   147,
+   519,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 23,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431420.0863206,
+  "frame": 352,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431421.903632,
+  "frame": 353,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   518,
+   147,
+   520,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 24,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431421.903653,
+  "frame": 353,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431423.9335153,
+  "frame": 354,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   521,
+   147,
+   519,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 25,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431423.9335546,
+  "frame": 354,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431425.6308796,
+  "frame": 355,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   524,
+   148,
+   518,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 26,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431425.6309032,
+  "frame": 355,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431427.501838,
+  "frame": 356,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   526,
+   148,
+   518,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 27,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431427.5018628,
+  "frame": 356,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431428.8966682,
+  "frame": 357,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   523,
+   153,
+   523,
+   561
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 28,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431428.89669,
+  "frame": 357,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431429.8428278,
+  "frame": 358,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   520,
+   153,
+   529,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 29,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431429.8428493,
+  "frame": 358,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431430.7663445,
+  "frame": 359,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   522,
+   153,
+   529,
+   562
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 30,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431430.7663674,
+  "frame": 359,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431431.7053316,
+  "frame": 360,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   524,
+   151,
+   531,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 31,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431431.7053547,
+  "frame": 360,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431432.5707145,
+  "frame": 361,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   526,
+   151,
+   531,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 32,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431432.570737,
+  "frame": 361,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431433.5656514,
+  "frame": 362,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   530,
+   152,
+   531,
+   562
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 33,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431433.5656743,
+  "frame": 362,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431434.5401506,
+  "frame": 363,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   534,
+   151,
+   527,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 34,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431434.540186,
+  "frame": 363,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431435.859589,
+  "frame": 364,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   538,
+   151,
+   526,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 35,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431435.859613,
+  "frame": 364,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431437.3043933,
+  "frame": 365,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   542,
+   150,
+   524,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 36,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431437.3044155,
+  "frame": 365,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431438.821182,
+  "frame": 366,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   544,
+   150,
+   525,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 37,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431438.8212044,
+  "frame": 366,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431440.1903937,
+  "frame": 367,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   546,
+   150,
+   524,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 38,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431440.1904345,
+  "frame": 367,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431441.5747616,
+  "frame": 368,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   547,
+   149,
+   525,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 39,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431441.574786,
+  "frame": 368,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431443.6750374,
+  "frame": 369,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   548,
+   149,
+   526,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 40,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431443.6750603,
+  "frame": 369,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431445.5418687,
+  "frame": 370,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   550,
+   147,
+   527,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 41,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431445.541892,
+  "frame": 370,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431446.7785013,
+  "frame": 371,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   553,
+   148,
+   526,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 42,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431446.7785234,
+  "frame": 371,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431447.7844236,
+  "frame": 372,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   557,
+   148,
+   525,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 43,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431447.784448,
+  "frame": 372,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431449.4070992,
+  "frame": 373,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   559,
+   147,
+   525,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 44,
+  "risk": 45.0,
+  "reasons": [
+   "no_hardhat",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431449.4071221,
+  "frame": 373,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat"
+  ],
+  "severity": 45.0
+ },
+ {
+  "t": 1789431450.8811224,
+  "frame": 374,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   558,
+   147,
+   526,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 45,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431450.8811457,
+  "frame": 374,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431452.140911,
+  "frame": 375,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   561,
+   148,
+   526,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 46,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431452.1409354,
+  "frame": 375,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431453.509184,
+  "frame": 376,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   562,
+   148,
+   526,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 47,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431453.509208,
+  "frame": 376,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431454.8072028,
+  "frame": 377,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   564,
+   149,
+   525,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 48,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431454.807227,
+  "frame": 377,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431456.1293745,
+  "frame": 378,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   568,
+   150,
+   523,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 49,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431456.1293974,
+  "frame": 378,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431457.9983683,
+  "frame": 379,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   571,
+   149,
+   522,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 50,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431457.9983926,
+  "frame": 379,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431460.0019958,
+  "frame": 380,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   573,
+   148,
+   523,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 51,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431460.0020196,
+  "frame": 380,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431461.8831673,
+  "frame": 381,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   575,
+   147,
+   522,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 52,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431461.8831913,
+  "frame": 381,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431463.4169266,
+  "frame": 382,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   578,
+   146,
+   520,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 53,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431463.4169528,
+  "frame": 382,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431465.0430653,
+  "frame": 383,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   579,
+   147,
+   521,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 54,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431465.0430884,
+  "frame": 383,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431466.4777994,
+  "frame": 384,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   582,
+   146,
+   521,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 55,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431466.4778228,
+  "frame": 384,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431467.6371586,
+  "frame": 385,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   585,
+   146,
+   520,
+   569
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 56,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431467.6371834,
+  "frame": 385,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431468.552716,
+  "frame": 386,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   587,
+   147,
+   519,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 57,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431468.5527399,
+  "frame": 386,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431469.3459296,
+  "frame": 387,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   589,
+   149,
+   519,
+   567
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 58,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431469.3459527,
+  "frame": 387,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431470.1980796,
+  "frame": 388,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   591,
+   148,
+   520,
+   568
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 59,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431470.1981025,
+  "frame": 388,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431471.4863138,
+  "frame": 389,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   583,
+   151,
+   532,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 60,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431471.486337,
+  "frame": 389,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431472.7840693,
+  "frame": 390,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   587,
+   152,
+   530,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 61,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431472.7840931,
+  "frame": 390,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431474.105334,
+  "frame": 391,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   589,
+   151,
+   530,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 62,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431474.1053581,
+  "frame": 391,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431475.4775474,
+  "frame": 392,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   591,
+   151,
+   530,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 63,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431475.4775856,
+  "frame": 392,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431476.9149392,
+  "frame": 393,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   594,
+   151,
+   530,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 64,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431476.9149635,
+  "frame": 393,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431478.3446724,
+  "frame": 394,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   598,
+   151,
+   527,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 65,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431478.344696,
+  "frame": 394,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431479.186243,
+  "frame": 395,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   604,
+   151,
+   522,
+   562
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 66,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431479.1862662,
+  "frame": 395,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431480.140684,
+  "frame": 396,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   606,
+   150,
+   522,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 67,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431480.1407077,
+  "frame": 396,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431481.4119427,
+  "frame": 397,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   608,
+   150,
+   523,
+   562
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 68,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431481.4119656,
+  "frame": 397,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431482.8235533,
+  "frame": 398,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   610,
+   150,
+   522,
+   563
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 69,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431482.823717,
+  "frame": 398,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431484.2378032,
+  "frame": 399,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   611,
+   150,
+   523,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 70,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431484.2378275,
+  "frame": 399,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431485.4987102,
+  "frame": 400,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   612,
+   149,
+   524,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 71,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431485.4987333,
+  "frame": 400,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431486.801361,
+  "frame": 401,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   614,
+   149,
+   526,
+   565
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 72,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431486.8013904,
+  "frame": 401,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431488.0393338,
+  "frame": 402,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   617,
+   150,
+   524,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 73,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431488.039357,
+  "frame": 402,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431489.4827387,
+  "frame": 403,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   619,
+   150,
+   524,
+   564
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 74,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431489.4827626,
+  "frame": 403,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431491.5140765,
+  "frame": 404,
+  "event": "perception",
+  "track_id": 5,
+  "bbox": [
+   621,
+   150,
+   525,
+   566
+  ],
+  "hardhat_ratio": 0.0,
+  "zone_frames": 0,
+  "violation_frames": 75,
+  "risk": 55.0,
+  "reasons": [
+   "no_hardhat",
+   "persistent",
+   "motion"
+  ],
+  "decision": "request_approval"
+ },
+ {
+  "t": 1789431491.5140996,
+  "frame": 404,
+  "event": "approval_requested",
+  "incident_id": "INC-0004",
+  "kinds": [
+   "motion",
+   "no_hardhat",
+   "persistent"
+  ],
+  "severity": 55.0
+ },
+ {
+  "t": 1789431491.5246508,
+  "frame": -1,
+  "event": "human_decision",
+  "incident_id": "INC-0004",
+  "decision": "approved",
+  "reviewer": "safety-officer"
+ },
+ {
+  "t": 1789431491.5246725,
+  "frame": -1,
+  "event": "action_executed",
+  "incident_id": "INC-0004",
+  "action": "safety_alert",
+  "auto": false,
+  "payload": {
+   "incident_id": "INC-0004",
+   "track_id": 5,
+   "kinds": [
+    "motion",
+    "no_hardhat",
+    "persistent"
+   ],
+   "severity": 55.0,
+   "auto": false,
+   "frames": [
+    400,
+    401,
+    402,
+    403,
+    404
+   ]
+  }
+ }
+]

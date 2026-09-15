@@ -1,0 +1,1 @@
+Narrator: SiteGuard is decision support, not an autonomous enforcer. Medium-risk detections always wait for a human. Only high-severity, persistent violations auto-escalate, and every action carries evidence plus a full audit trace. No facial recognition, no identity tracking — just persons and P P E. And the system must never be wired to punishment without human review.

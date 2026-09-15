@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1920, height=1080">
+<title>SiteGuard Agent — Demo Video</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:#0a0e1a}
+  #root{position:relative;width:1920px;height:1080px;overflow:hidden}
+  .clip{position:absolute;inset:0;overflow:hidden}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-duration="238" data-width="1920" data-height="1080">
+
+  <!-- scenes -->
+  <div class="clip" id="host1" data-composition-id="scene1-host" data-composition-src="compositions/scene1.html" data-start="0"   data-duration="32"></div>
+  <div class="clip" id="host2" data-composition-id="scene2-host" data-composition-src="compositions/scene2.html" data-start="32"  data-duration="54"></div>
+  <div class="clip" id="host3" data-composition-id="scene3-host" data-composition-src="compositions/scene3.html" data-start="86"  data-duration="39"></div>
+  <div class="clip" id="host4" data-composition-id="scene4-host" data-composition-src="compositions/scene4.html" data-start="125" data-duration="31"></div>
+  <div class="clip" id="host5" data-composition-id="scene5-host" data-composition-src="compositions/scene5.html" data-start="156" data-duration="41"></div>
+  <div class="clip" id="host6" data-composition-id="scene6-host" data-composition-src="compositions/scene6.html" data-start="197" data-duration="26"></div>
+  <div class="clip" id="host7" data-composition-id="scene7-host" data-composition-src="compositions/scene7.html" data-start="223" data-duration="15"></div>
+
+  <!-- narration -->
+  <audio id="narr1" src="assets/audio/scene1_problem.mp3"    data-start="0.6"   data-duration="30.84" preload="auto"></audio>
+  <audio id="narr2" src="assets/audio/scene2_demo.mp3"       data-start="32.6"  data-duration="51.91" preload="auto"></audio>
+  <audio id="narr3" src="assets/audio/scene3_trace.mp3"      data-start="86.6"  data-duration="36.19"   preload="auto"></audio>
+  <audio id="narr4" src="assets/audio/scene4_arch.mp3"       data-start="125.6" data-duration="29.33"   preload="auto"></audio>
+  <audio id="narr5" src="assets/audio/scene5_eval.mp3"       data-start="156.6" data-duration="38.64" preload="auto"></audio>
+  <audio id="narr6" src="assets/audio/scene6_responsible.mp3" data-start="197.6" data-duration="24.36"   preload="auto"></audio>
+  <audio id="narr7" src="assets/audio/scene7_credits.mp3"    data-start="223.6" data-duration="13.27"   preload="auto"></audio>
+
+</div>
+<script src="vendor/gsap.min.js"></script>
+<script>
+  // root holds scene hosts; sub-compositions register their own timelines.
+  const tl = gsap.timeline({ paused: true });
+  window.__timelines = window.__timelines || {};
+  window.__timelines["main"] = tl;
+</script>
+</body>
+</html>

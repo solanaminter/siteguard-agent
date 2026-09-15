@@ -1,0 +1,13 @@
+services:
+  siteguard:
+    build:
+      context: ..
+      dockerfile: infra/Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      STORAGE_BACKEND: ${STORAGE_BACKEND:-local}
+      S3_BUCKET: ${S3_BUCKET:-siteguard-evidence}
+      AWS_REGION: ${AWS_REGION:-us-west-2}
+    volumes:
+      - ../assets/evidence:/app/assets/evidence

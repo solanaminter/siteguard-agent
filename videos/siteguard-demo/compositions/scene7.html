@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --bg:#0a0e1a; --cyan:#22d3ee; --green:#4ade80; --text:#e8eef7; --dim:#93a1b8;
+    --mono:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,'Segoe UI',Inter,Roboto,'Helvetica Neue',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
+  #scene7{position:relative;width:1920px;height:1080px;overflow:hidden;
+    background:var(--bg);font-family:var(--sans);color:var(--text);
+    display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .grid{position:absolute;inset:0;pointer-events:none;
+    background-image:linear-gradient(rgba(34,211,238,.055) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(34,211,238,.055) 1px,transparent 1px);
+    background-size:64px 64px}
+  h1{font-size:130px;font-weight:800;letter-spacing:.02em;
+    background:linear-gradient(180deg,#ffffff 30%,#9fd8e8 100%);
+    -webkit-background-clip:text;background-clip:text;color:transparent;opacity:0}
+  .line{font-size:42px;color:var(--dim);margin-top:26px;opacity:0;font-weight:300}
+  .line b{color:var(--text);font-weight:600}
+  .tag{font-family:var(--mono);font-size:26px;letter-spacing:.35em;color:var(--cyan);
+    text-transform:uppercase;margin-top:56px;opacity:0}
+</style>
+</head>
+<body>
+<div id="scene7" data-composition-id="scene7" data-width="1920" data-height="1080">
+  <div class="grid"></div>
+  <h1 id="s7-title">SiteGuard Agent</h1>
+  <div class="line" id="s7-l1">Built solo by <b>Dy — Solana Minter</b> · Green Robin</div>
+  <div class="line" id="s7-l2">Real OpenCV 5 perception · real agentic decisions</div>
+  <div class="tag" id="s7-l3">OpenCV AI Competition 2026</div>
+</div>
+<script src="vendor/gsap.min.js"></script>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#s7-title", { opacity: 0, scale: .92 }, { opacity: 1, scale: 1, duration: 1.4, ease: "power3.out" }, 0.4);
+  tl.to("#s7-l1", { opacity: 1, duration: .8 }, 2.2);
+  tl.to("#s7-l2", { opacity: 1, duration: .8 }, 4.5);
+  tl.to("#s7-l3", { opacity: 1, duration: .8 }, 7);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["scene7"] = tl;
+</script>
+</body>
+</html>

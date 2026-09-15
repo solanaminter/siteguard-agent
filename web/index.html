@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SiteGuard Agent — Agentic Construction-Site Safety Monitoring</title>
+<meta name="description" content="SiteGuard Agent watches construction sites with OpenCV 5, reasons about risk like a safety officer, and only escalates when it matters. Built for the OpenCV AI Competition 2026.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top"><span class="brand-mark">◈</span> SiteGuard&nbsp;Agent</a>
+    <nav class="links">
+      <a href="#demo">Live pipeline</a>
+      <a href="#how">How it works</a>
+      <a href="#explorer">Results</a>
+      <a href="#architecture">Architecture</a>
+      <a href="#responsible">Responsible use</a>
+    </nav>
+    <span class="pill">OpenCV AI Competition 2026</span>
+  </div>
+</header>
+
+<main id="top">
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap">
+      <p class="kicker">Agentic Vision &nbsp;·&nbsp; OpenCV 5 &nbsp;·&nbsp; AWS</p>
+      <h1>Cameras watch. <span class="accent">SiteGuard reasons.</span></h1>
+      <p class="lede">An agentic safety monitor for construction sites. OpenCV 5 detects
+        every worker, checks hardhats, zones and motion — then an agent loop weighs the
+        evidence, requests human approval for the gray areas, and auto-escalates only
+        when risk is high. Later vision can <em>reopen</em> a decision: a hardhat appearing
+        withdraws a pending alert.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="#demo">▶ Watch the real pipeline</a>
+        <a class="btn" href="#explorer">Explore the agent trace</a>
+      </div>
+      <div class="stat-row" id="hero-stats">
+        <div class="stat"><b data-stat="incidents">–</b><span>incidents in demo run</span></div>
+        <div class="stat"><b data-stat="trace">–</b><span>agent trace events</span></div>
+        <div class="stat"><b data-stat="detf1">–</b><span>detection F1 (curated set)</span></div>
+        <div class="stat"><b data-stat="hatacc">–</b><span>hardhat accuracy (HF set)</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIVE PIPELINE VIDEO -->
+  <section id="demo" class="section">
+    <div class="wrap">
+      <p class="kicker">Real output, not a mockup</p>
+      <h2>The pipeline, running</h2>
+      <p class="sub">27 seconds of the actual SiteGuard vision pipeline: YOLOX-s person
+        detection (OpenCV Model Zoo), classical-OpenCV hardhat segmentation, zone
+        intrusion, tracking — with the agent's live risk decisions overlaid.</p>
+      <div class="video-frame">
+        <video controls preload="metadata" poster="assets/frames/tracking.jpg">
+          <source src="assets/demo_annotated.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <p class="note">Full 4-minute narrated demo with architecture and evaluation:
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener">YouTube link coming after upload</a>.
+        The clip above is rendered by the real pipeline — every box and label is computed, not drawn by hand.</p>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how" class="section alt">
+    <div class="wrap">
+      <p class="kicker">End-to-end walkthrough</p>
+      <h2>From pixels to a decision</h2>
+      <ol class="steps">
+        <li><b>1 · Detect.</b> YOLOX-s (OpenCV Model Zoo, Apache 2.0) finds every person
+          via <code>cv2.dnn</code> — official Zoo preprocessing, anchor-free decode, batched NMS.</li>
+        <li><b>2 · Check PPE.</b> A classical OpenCV hardhat classifier segments the head ROI
+          in HSV: saturated helmet hues, yellow-dome dominance, and a white-dome path with
+          Canny brim texture. No learned PPE model, no GPU required.</li>
+        <li><b>3 · Zones &amp; motion.</b> Point-in-polygon restricted-zone tests plus dense
+          Farneback optical flow for activity level.</li>
+        <li><b>4 · Track.</b> An IoU centroid tracker keeps identities across frames and
+          accumulates hardhat votes, zone persistence and violation history per track.</li>
+        <li><b>5 · Decide — and re-decide.</b> The agent scores risk: below 40 is dismissed,
+          40–79 requests human approval, 80+ auto-escalates. Crucially, <em>later vision
+          reopens earlier decisions</em>: a hardhat appearing withdraws a pending request;
+          persistent violations or zone entry escalate it.</li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- RESULTS EXPLORER -->
+  <section id="explorer" class="section">
+    <div class="wrap">
+      <p class="kicker">Interactive evidence</p>
+      <h2>Results explorer</h2>
+      <p class="sub">Real detections, the real agent-loop trace, and the real evaluation
+        numbers — all computed by the pipeline, all inspectable below.</p>
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="detections" role="tab">Detections</button>
+        <button class="tab" data-tab="trace" role="tab">Agent trace</button>
+        <button class="tab" data-tab="eval" role="tab">Evaluation</button>
+      </div>
+
+      <div class="panel active" id="panel-detections" role="tabpanel">
+        <div class="frame-grid" id="frame-grid"></div>
+      </div>
+
+      <div class="panel" id="panel-trace" role="tabpanel">
+        <p class="sub">Four incidents from the 405-frame demo run. Each card shows the full
+          decision history — including decisions the agent <em>reversed</em> when new vision
+          evidence arrived.</p>
+        <div class="incident-grid" id="incident-grid"></div>
+        <p class="note">The complete machine-readable trace (640 events: per-frame risk,
+          votes, zone frames) ships with the repo at
+          <code>assets/annotated/trace.json</code>.</p>
+      </div>
+
+      <div class="panel" id="panel-eval" role="tabpanel">
+        <div class="eval-cols">
+          <div class="eval-card">
+            <h3>Curated scenario set</h3>
+            <p class="eval-src">8 hand-labeled scenes · cv2.dnn CPU</p>
+            <dl class="metrics" id="metrics-curated"></dl>
+          </div>
+          <div class="eval-card">
+            <h3>Real-world HF set</h3>
+            <p class="eval-src">200 construction photos · CC BY 4.0 · cv2.dnn CPU</p>
+            <dl class="metrics" id="metrics-hf"></dl>
+          </div>
+        </div>
+        <h3 class="fail-h">Known failure cases</h3>
+        <ul class="fails">
+          <li><b>White hardhat vs. bright sky</b> — merges into one background blob; missed.</li>
+          <li><b>Heavily occluded workers</b> — detector misses shrink coverage.</li>
+          <li><b>Excavator false positive</b> — large machinery occasionally reads as a person.</li>
+          <li><b>Small / distant workers</b> — below the detector's reliable resolution.</li>
+        </ul>
+        <p class="note">Honest scope: the curated set is a pipeline check, not field validation.
+          Latency on CPU averages ~950&nbsp;ms/frame; a T4 GPU detector benchmark is in progress
+          (see technical report). Production real-time use needs a GPU-enabled build or frame skipping.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARCHITECTURE -->
+  <section id="architecture" class="section alt">
+    <div class="wrap">
+      <p class="kicker">System design</p>
+      <h2>OpenCV + AWS architecture</h2>
+      <div class="arch-frame">
+        <img src="assets/architecture.png" alt="SiteGuard system architecture diagram">
+      </div>
+      <div class="arch-grid">
+        <div><h3>Vision</h3><p>OpenCV 5 end-to-end: YOLOX-s via <code>cv2.dnn</code>, HSV
+          hardhat segmentation, Farneback flow, point-in-polygon zones, IoU tracking.</p></div>
+        <div><h3>Agent</h3><p>Risk policy (&lt;40 dismiss · 40–79 human approval · ≥80
+          escalate) with decision revision: later frames reopen pending incidents.</p></div>
+        <div><h3>API</h3><p>FastAPI: <code>/api/analyze/image</code>,
+          <code>/api/incidents</code>, <code>/api/trace</code>, approve/reject —
+          plus a <code>/health</code> endpoint for the load balancer.</p></div>
+        <div><h3>AWS</h3><p>Docker → ECR → ECS Fargate behind an ALB, S3 evidence bucket,
+          CloudWatch JSON logs, CloudFormation with a one-command deploy.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RESPONSIBLE USE -->
+  <section id="responsible" class="section">
+    <div class="wrap narrow">
+      <p class="kicker">Responsible use</p>
+      <h2>Safety tooling, not surveillance</h2>
+      <ul class="resp">
+        <li><b>Human in the loop by design.</b> Medium-risk incidents require explicit
+          human approval — the agent cannot auto-escalate on ambiguous evidence.</li>
+        <li><b>Decision revision over punishment.</b> New evidence withdraws stale alerts;
+          the system is tuned to avoid false accusations.</li>
+        <li><b>Local-first vision.</b> All analysis runs in the site's own container —
+          no video is sent to third-party vision APIs.</li>
+        <li><b>Evidence &amp; audit trail.</b> Every incident keeps annotated frames and a
+          JSON decision trace, so any escalation can be reviewed after the fact.</li>
+        <li><b>Deployment guidance.</b> Intended for sites with posted camera notices and
+          worker consent processes; operators must follow local labor and privacy law.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- DEPLOY NOTE -->
+  <section class="section alt">
+    <div class="wrap narrow">
+      <p class="kicker">About this demo</p>
+      <h2>Pre-computed real outputs</h2>
+      <p class="sub">This page presents <b>pre-computed outputs of the real pipeline</b> —
+        the YOLOX-s weights and OpenCV runtime can't execute inside a serverless function,
+        so live inference isn't possible here. The production API (FastAPI on ECS Fargate)
+        exposes the same endpoints; a hosted deployment connects via the
+        <code>API_BASE_URL</code> environment variable. Everything shown — video frames,
+        trace events, metrics — was generated by the actual code in the repository.</p>
+      <div class="cta-row">
+        <a class="btn primary" href="https://github.com/solanaminter" target="_blank" rel="noopener">Repository (link coming)</a>
+        <a class="btn" href="https://www.youtube.com/" target="_blank" rel="noopener">Full demo video (link coming)</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <p><b>SiteGuard Agent</b> · Built by <a href="https://linkedin.com/in/solanaminter" target="_blank" rel="noopener">Solana Minter</a> (Green Robin) for the OpenCV AI Competition 2026.</p>
+    <p class="tiny">MIT License · Detection: YOLOX-s, OpenCV Model Zoo (Apache 2.0) · Eval photos: Roboflow Universe “Hard Hats”, CC BY 4.0</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

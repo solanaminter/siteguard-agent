@@ -1,0 +1,326 @@
+[
+  {
+    "image": "compliant.webp",
+    "notes": "fully compliant scene; expect no incidents",
+    "persons": [
+      {
+        "bbox": [
+          0.29,
+          0.09,
+          0.22,
+          0.91
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat"
+      },
+      {
+        "bbox": [
+          0.51,
+          0.1,
+          0.21,
+          0.9
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat"
+      }
+    ],
+    "zones": {
+      "yard-corner": [
+        [
+          0.78,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.3
+        ],
+        [
+          0.78,
+          0.3
+        ]
+      ]
+    }
+  },
+  {
+    "image": "violation_nohat.webp",
+    "notes": "PPE violation; expect incident",
+    "persons": [
+      {
+        "bbox": [
+          0.4,
+          0.16,
+          0.41,
+          0.84
+        ],
+        "hardhat": false,
+        "in_zone": false,
+        "note": "bare head, leaning on wall"
+      }
+    ],
+    "zones": {}
+  },
+  {
+    "image": "restricted_zone.webp",
+    "notes": "highest severity: PPE + zone intrusion",
+    "persons": [
+      {
+        "bbox": [
+          0.3,
+          0.28,
+          0.13,
+          0.62
+        ],
+        "hardhat": false,
+        "in_zone": true,
+        "note": "no hardhat inside taped excavation zone"
+      }
+    ],
+    "zones": {
+      "excavation": [
+        [
+          0.2,
+          0.35
+        ],
+        [
+          1.0,
+          0.2
+        ],
+        [
+          1.0,
+          0.95
+        ],
+        [
+          0.2,
+          0.95
+        ]
+      ]
+    }
+  },
+  {
+    "image": "whitehat_sky.webp",
+    "notes": "failure-case probe: white helmet against bright sky; spare white helmet hangs at left (not a person)",
+    "persons": [
+      {
+        "bbox": [
+          0.5,
+          0.3,
+          0.15,
+          0.31
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "white hardhat vs overexposed sky"
+      }
+    ],
+    "zones": {}
+  },
+  {
+    "image": "occlusion.webp",
+    "notes": "occlusion probe: 4th worker partly behind scaffolding (missed by detector); detector also fires on the yellow excavator (false positive)",
+    "persons": [
+      {
+        "bbox": [
+          0.207,
+          0.192,
+          0.258,
+          0.797
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat"
+      },
+      {
+        "bbox": [
+          0.495,
+          0.271,
+          0.218,
+          0.719
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat"
+      },
+      {
+        "bbox": [
+          0.031,
+          0.197,
+          0.264,
+          0.798
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat"
+      },
+      {
+        "bbox": [
+          0.823,
+          0.234,
+          0.146,
+          0.766
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "partly behind scaffolding poles; box estimated"
+      }
+    ],
+    "zones": {}
+  },
+  {
+    "image": "dusk.webp",
+    "notes": "failure-case probe: low light detection",
+    "persons": [
+      {
+        "bbox": [
+          0.39,
+          0.46,
+          0.14,
+          0.47
+        ],
+        "hardhat": false,
+        "in_zone": false,
+        "note": "no hardhat, dim floodlight"
+      }
+    ],
+    "zones": {}
+  },
+  {
+    "image": "empty.webp",
+    "notes": "no people; expect zero detections (false-positive probe)",
+    "persons": [],
+    "zones": {}
+  },
+  {
+    "image": "overview.webp",
+    "notes": "stress case: 11 clearly-identifiable workers at mixed distances; small-object recall probe",
+    "persons": [
+      {
+        "bbox": [
+          0.869,
+          0.666,
+          0.065,
+          0.255
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "blue hardhat at fence"
+      },
+      {
+        "bbox": [
+          0.287,
+          0.648,
+          0.053,
+          0.298
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat"
+      },
+      {
+        "bbox": [
+          0.096,
+          0.711,
+          0.123,
+          0.232
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "white hardhat, seated"
+      },
+      {
+        "bbox": [
+          0.468,
+          0.616,
+          0.029,
+          0.157
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "white hardhat"
+      },
+      {
+        "bbox": [
+          0.522,
+          0.606,
+          0.031,
+          0.163
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "hardhat"
+      },
+      {
+        "bbox": [
+          0.494,
+          0.61,
+          0.034,
+          0.152
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "hardhat"
+      },
+      {
+        "bbox": [
+          0.732,
+          0.296,
+          0.031,
+          0.134
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat on scaffold"
+      },
+      {
+        "bbox": [
+          0.617,
+          0.385,
+          0.042,
+          0.141
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat"
+      },
+      {
+        "bbox": [
+          0.681,
+          0.401,
+          0.034,
+          0.12
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat on scaffold"
+      },
+      {
+        "bbox": [
+          0.223,
+          0.555,
+          0.021,
+          0.086
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "distant worker"
+      },
+      {
+        "bbox": [
+          0.591,
+          0.238,
+          0.031,
+          0.121
+        ],
+        "hardhat": true,
+        "in_zone": false,
+        "note": "yellow hardhat on building top; missed by detector; box estimated"
+      }
+    ],
+    "zones": {}
+  }
+]

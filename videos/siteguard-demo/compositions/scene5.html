@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --bg:#0a0e1a; --cyan:#22d3ee; --green:#4ade80; --red:#f87171;
+    --amber:#fbbf24; --text:#e8eef7; --dim:#93a1b8; --line:rgba(34,211,238,.14);
+    --mono:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,'Segoe UI',Inter,Roboto,'Helvetica Neue',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
+  #scene5{position:relative;width:1920px;height:1080px;overflow:hidden;
+    background:var(--bg);font-family:var(--sans);color:var(--text)}
+  .grid{position:absolute;inset:0;pointer-events:none;
+    background-image:linear-gradient(rgba(34,211,238,.055) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(34,211,238,.055) 1px,transparent 1px);
+    background-size:64px 64px}
+  .tag{font-family:var(--mono);font-size:26px;letter-spacing:.35em;color:var(--cyan);
+    text-transform:uppercase}
+  .metrics{position:absolute;left:120px;top:250px;right:120px;display:flex;gap:24px}
+  .metric{flex:1;background:rgba(15,22,38,.94);border:1px solid var(--line);border-radius:14px;
+    padding:26px 30px;opacity:0;text-align:center}
+  .metric .v{font-family:var(--mono);font-size:64px;font-weight:700;color:var(--cyan)}
+  .metric .l{font-size:26px;color:var(--dim);margin-top:8px}
+  .fail{position:absolute;bottom:90px;width:520px;opacity:0}
+  .fail img{width:520px;height:300px;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
+  .fail .c{font-size:26px;color:var(--dim);margin-top:10px;line-height:1.4}
+  .fail .c b{color:var(--amber)}
+</style>
+</head>
+<body>
+<div id="scene5" data-composition-id="scene5" data-width="1920" data-height="1080">
+  <div class="grid"></div>
+  <div style="position:absolute;left:120px;top:80px">
+    <div class="tag" id="s5-kicker">Measured on 8 hand-labeled scenes, incl. failure probes</div>
+    <div style="font-size:72px;font-weight:800;margin-top:14px" id="s5-title">Honest numbers</div>
+  </div>
+  <div class="metrics">
+    <div class="metric" id="m1"><div class="v" id="mv1">0.000</div><div class="l">person detection<br>precision / recall</div></div>
+    <div class="metric" id="m2"><div class="v" id="mv2" style="color:var(--green)">0.00</div><div class="l">hardhat classification<br>precision</div></div>
+    <div class="metric" id="m3"><div class="v" id="mv3">0.00</div><div class="l">zone<br>accuracy</div></div>
+    <div class="metric" id="m4"><div class="v" id="mv4" style="color:var(--amber)">0<span style="font-size:34px">ms</span></div><div class="l">mean latency / frame<br>CPU</div></div>
+  </div>
+  <div class="fail" id="f1" style="left:120px">
+    <img src="assets/stills/whitehat_sky.jpg" alt="">
+    <div class="c"><b>Miss:</b> white hardhat against a blown-out sky disappears — a known honest limit</div>
+  </div>
+  <div class="fail" id="f2" style="left:700px">
+    <img src="assets/stills/occlusion.jpg" alt="">
+    <div class="c"><b>Miss:</b> worker buried behind scaffolding; the yellow excavator arm fools the detector</div>
+  </div>
+  <div class="fail" id="f3" style="left:1280px;width:520px">
+    <div style="width:520px;height:300px;border-radius:12px;border:1px solid var(--line);
+      background:rgba(15,22,38,.94);display:flex;align-items:center;justify-content:center;
+      font-family:var(--mono);font-size:30px;color:var(--dim);text-align:center;padding:30px">
+      small / distant figures<br>strain a 640px detector
+    </div>
+    <div class="c">Every failure is documented — <b style="color:var(--green)">that’s why the human stays in the loop</b></div>
+  </div>
+</div>
+<script src="vendor/gsap.min.js"></script>
+<script>
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#s5-kicker", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .7 }, 0.3);
+  tl.fromTo("#s5-title",  { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .8 }, 0.6);
+  ["#m1","#m2","#m3","#m4"].forEach((s, i) => {
+    tl.fromTo(s, { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .7, ease: "power2.out" }, 2 + i * 1.2);
+  });
+  const cnt = { v1: 0, v2: 0, v3: 0, v4: 0 };
+  tl.to(cnt, { v1: 0.905, duration: 2, ease: "power2.out",
+    onUpdate: () => document.getElementById("mv1").textContent = cnt.v1.toFixed(3) }, 2.5);
+  tl.to(cnt, { v2: 1.00, duration: 2, ease: "power2.out",
+    onUpdate: () => document.getElementById("mv2").textContent = cnt.v2.toFixed(2) }, 3.5);
+  tl.to(cnt, { v3: 1.00, duration: 2, ease: "power2.out",
+    onUpdate: () => document.getElementById("mv3").textContent = cnt.v3.toFixed(2) }, 4.5);
+  tl.to(cnt, { v4: 953, duration: 2, ease: "power2.out", snap: { v4: 1 },
+    onUpdate: () => document.getElementById("mv4").innerHTML = Math.round(cnt.v4) + '<span style="font-size:34px">ms</span>' }, 5.5);
+  tl.fromTo("#f1", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8 }, 14);
+  tl.fromTo("#f2", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8 }, 20);
+  tl.fromTo("#f3", { opacity: 0, y: 40 }, { opacity: 1, y: 0, duration: .8 }, 26);
+  tl.to("#scene5", { opacity: 0, duration: .8 }, 40.2);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["scene5"] = tl;
+</script>
+</body>
+</html>

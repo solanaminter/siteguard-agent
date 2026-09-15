@@ -1,0 +1,94 @@
+{
+  "summary": {
+    "detection": {
+      "precision": 0.905,
+      "recall": 0.905,
+      "f1": 0.905,
+      "tp": 19,
+      "fp": 2,
+      "fn": 2
+    },
+    "hardhat_classification": {
+      "precision": 1.0,
+      "recall": 0.875,
+      "f1": 0.933,
+      "accuracy": 0.895,
+      "tp": 14,
+      "fp": 0,
+      "tn": 3,
+      "fn": 2
+    },
+    "zone_accuracy": 1.0,
+    "latency_ms": {
+      "mean": 952.5,
+      "p95": 1114.0
+    },
+    "n_images": 8
+  },
+  "per_image": [
+    {
+      "image": "compliant.webp",
+      "latency_ms": 866.1,
+      "detections": 2,
+      "gt_persons": 2,
+      "matched": 2,
+      "notes": "fully compliant scene; expect no incidents"
+    },
+    {
+      "image": "violation_nohat.webp",
+      "latency_ms": 873.7,
+      "detections": 1,
+      "gt_persons": 1,
+      "matched": 1,
+      "notes": "PPE violation; expect incident"
+    },
+    {
+      "image": "restricted_zone.webp",
+      "latency_ms": 972.1,
+      "detections": 1,
+      "gt_persons": 1,
+      "matched": 1,
+      "notes": "highest severity: PPE + zone intrusion"
+    },
+    {
+      "image": "whitehat_sky.webp",
+      "latency_ms": 1052.9,
+      "detections": 2,
+      "gt_persons": 1,
+      "matched": 1,
+      "notes": "failure-case probe: white helmet against bright sky; spare white helmet hangs at left (not a person)"
+    },
+    {
+      "image": "occlusion.webp",
+      "latency_ms": 975.1,
+      "detections": 4,
+      "gt_persons": 4,
+      "matched": 3,
+      "notes": "occlusion probe: 4th worker partly behind scaffolding (missed by detector); detector also fires on the yellow excavator (false positive)"
+    },
+    {
+      "image": "dusk.webp",
+      "latency_ms": 1146.9,
+      "detections": 1,
+      "gt_persons": 1,
+      "matched": 1,
+      "notes": "failure-case probe: low light detection"
+    },
+    {
+      "image": "empty.webp",
+      "latency_ms": 868.9,
+      "detections": 0,
+      "gt_persons": 0,
+      "matched": 0,
+      "notes": "no people; expect zero detections (false-positive probe)"
+    },
+    {
+      "image": "overview.webp",
+      "latency_ms": 864.2,
+      "detections": 10,
+      "gt_persons": 11,
+      "matched": 10,
+      "notes": "stress case: 11 clearly-identifiable workers at mixed distances; small-object recall probe"
+    }
+  ]
+}

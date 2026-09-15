@@ -1,0 +1,876 @@
+{
+  "frames": 405,
+  "incidents": [
+    {
+      "id": "INC-0001",
+      "track": 2,
+      "kinds": [
+        "motion",
+        "no_hardhat",
+        "persistent"
+      ],
+      "severity": 55.0,
+      "status": "withdrawn",
+      "created_frame": 83,
+      "resolved_frame": 157,
+      "reviewer": null,
+      "evidence": null,
+      "decision_history": [
+        {
+          "frame": 83,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 84,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 85,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 86,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 87,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 88,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 89,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 90,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 91,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 92,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 93,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 94,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 95,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 96,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 97,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 98,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 99,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 100,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 101,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 102,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 103,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 104,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 105,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 106,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 107,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 108,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 109,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 110,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 111,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 112,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 113,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 114,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 115,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 116,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 117,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 118,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 119,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 120,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 121,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 122,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 123,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 124,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 125,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 126,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 127,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 128,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 129,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 130,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 131,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 132,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 133,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 134,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 135,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 136,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 137,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 138,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 139,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 140,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 141,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 142,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 143,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 144,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 145,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 146,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 147,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 148,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 149,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 150,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 151,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 152,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 153,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 154,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 155,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 156,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 157,
+          "decision": "withdraw",
+          "note": "vision cleared: PPE compliant"
+        }
+      ]
+    },
+    {
+      "id": "INC-0002",
+      "track": 4,
+      "kinds": [
+        "motion",
+        "restricted_zone"
+      ],
+      "severity": 40.0,
+      "status": "withdrawn",
+      "created_frame": 225,
+      "resolved_frame": 226,
+      "reviewer": null,
+      "evidence": null,
+      "decision_history": [
+        {
+          "frame": 225,
+          "decision": "request_approval",
+          "note": "risk 40 in review band"
+        },
+        {
+          "frame": 226,
+          "decision": "withdraw",
+          "note": "vision cleared: PPE compliant"
+        }
+      ]
+    },
+    {
+      "id": "INC-0003",
+      "track": 4,
+      "kinds": [
+        "motion",
+        "no_hardhat",
+        "persistent",
+        "restricted_zone"
+      ],
+      "severity": 90.0,
+      "status": "escalated",
+      "created_frame": 227,
+      "resolved_frame": 228,
+      "reviewer": null,
+      "evidence": "assets/evidence/INC-0003.jpg",
+      "decision_history": [
+        {
+          "frame": 227,
+          "decision": "request_approval",
+          "note": "risk 75 in review band"
+        },
+        {
+          "frame": 228,
+          "decision": "escalate",
+          "note": "risk 80 >= threshold 80"
+        }
+      ]
+    },
+    {
+      "id": "INC-0004",
+      "track": 5,
+      "kinds": [
+        "motion",
+        "no_hardhat",
+        "persistent"
+      ],
+      "severity": 55.0,
+      "status": "approved",
+      "created_frame": 332,
+      "resolved_frame": null,
+      "reviewer": "safety-officer",
+      "evidence": null,
+      "decision_history": [
+        {
+          "frame": 332,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 333,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 334,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 335,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 336,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 337,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 338,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 339,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 340,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 341,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 342,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 343,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 344,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 345,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 346,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 347,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 348,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 349,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 350,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 351,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 352,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 353,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 354,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 355,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 356,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 357,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 358,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 359,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 360,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 361,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 362,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 363,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 364,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 365,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 366,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 367,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 368,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 369,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 370,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 371,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 372,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 373,
+          "decision": "request_approval",
+          "note": "risk 45 in review band"
+        },
+        {
+          "frame": 374,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 375,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 376,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 377,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 378,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 379,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 380,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 381,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 382,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 383,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 384,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 385,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 386,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 387,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 388,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 389,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 390,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 391,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 392,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 393,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 394,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 395,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 396,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 397,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 398,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 399,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 400,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 401,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 402,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 403,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        },
+        {
+          "frame": 404,
+          "decision": "request_approval",
+          "note": "risk 55 in review band"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "kind": "safety_alert",
+      "payload": {
+        "incident_id": "INC-0003",
+        "track_id": 4,
+        "kinds": [
+          "motion",
+          "no_hardhat",
+          "restricted_zone"
+        ],
+        "severity": 80.0,
+        "auto": true,
+        "frames": [
+          227,
+          228
+        ],
+        "evidence_path": "assets/evidence/INC-0003.jpg"
+      }
+    },
+    {
+      "kind": "safety_alert",
+      "payload": {
+        "incident_id": "INC-0004",
+        "track_id": 5,
+        "kinds": [
+          "motion",
+          "no_hardhat",
+          "persistent"
+        ],
+        "severity": 55.0,
+        "auto": false,
+        "frames": [
+          400,
+          401,
+          402,
+          403,
+          404
+        ]
+      }
+    }
+  ],
+  "trace_events": 640
+}

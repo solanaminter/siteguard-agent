@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  :root{
+    --bg:#0a0e1a; --cyan:#22d3ee; --green:#4ade80; --red:#f87171;
+    --amber:#fbbf24; --text:#e8eef7; --dim:#93a1b8; --line:rgba(34,211,238,.14);
+    --mono:ui-monospace,'SF Mono','Cascadia Code',Menlo,Consolas,monospace;
+    --sans:system-ui,-apple-system,'Segoe UI',Inter,Roboto,'Helvetica Neue',sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html,body{width:1920px;height:1080px;overflow:hidden;background:var(--bg)}
+  #scene3{position:relative;width:1920px;height:1080px;overflow:hidden;
+    background:var(--bg);font-family:var(--sans);color:var(--text)}
+  .grid{position:absolute;inset:0;pointer-events:none;
+    background-image:linear-gradient(rgba(34,211,238,.055) 1px,transparent 1px),
+                     linear-gradient(90deg,rgba(34,211,238,.055) 1px,transparent 1px);
+    background-size:64px 64px}
+  .tag{font-family:var(--mono);font-size:26px;letter-spacing:.35em;color:var(--cyan);
+    text-transform:uppercase}
+  #trace-list{position:absolute;left:120px;top:235px;width:1180px}
+  .tev{background:rgba(15,22,38,.94);border:1px solid var(--line);border-radius:12px;
+    padding:14px 26px;margin-bottom:13px;opacity:0;font-family:var(--mono);font-size:27px}
+  .tev .fr{color:var(--dim);margin-right:18px}
+  .tev .chg-amber{color:var(--amber);font-weight:700}
+  .tev .chg-red{color:var(--red);font-weight:700}
+  .tev .chg-cyan{color:var(--cyan);font-weight:700}
+  .tev .chg-green{color:var(--green);font-weight:700}
+  .tev .cause{color:var(--dim);font-size:24px;display:block;margin-top:6px}
+  #s3-verdict{position:absolute;left:120px;right:120px;bottom:60px;text-align:center;
+    font-size:52px;font-weight:700;opacity:0}
+</style>
+</head>
+<body>
+<div id="scene3" data-composition-id="scene3" data-width="1920" data-height="1080">
+  <div class="grid"></div>
+  <div style="position:absolute;left:120px;top:90px">
+    <div class="tag" id="s3-kicker">Agentic proof · every perception → decision → action logged</div>
+    <div style="font-size:72px;font-weight:800;margin-top:14px" id="s3-title">The trace is the proof</div>
+  </div>
+  <div id="trace-list"></div>
+  <div id="s3-verdict">Vision didn’t just explain a result.<br><span style="color:var(--cyan)">It changed what the system did.</span></div>
+</div>
+<script src="vendor/gsap.min.js"></script>
+<script>
+  // ---- filled from assets/annotated/trace.json after the final demo run ----
+  const TRACE_EVENTS = [
+    { frame: 83,  cls: "chg-amber", main: "INC-0001 opened — request_approval", cause: "no_hardhat · risk 55 · bare worker, persistent track" },
+    { frame: 157, cls: "chg-cyan",  main: "decision_change — request_approval → WITHDRAWN", cause: "vision: hardhat detected on the same track" },
+    { frame: 227, cls: "chg-amber", main: "INC-0003 opened — request_approval", cause: "no_hardhat + restricted_zone · risk 90 · excavation polygon" },
+    { frame: 228, cls: "chg-red",   main: "decision_change — request_approval → ESCALATE", cause: "vision: persistent violation / zone intrusion" },
+    { frame: 228, cls: "chg-red",   main: "action_executed — safety_alert (auto)", cause: "evidence frame + snapshot saved" },
+  ];
+  const list = document.getElementById("trace-list");
+  TRACE_EVENTS.forEach((e, i) => {
+    const d = document.createElement("div");
+    d.className = "tev"; d.id = "tev" + i;
+    d.innerHTML = `<span class="fr">f${e.frame}</span><span class="${e.cls}">${e.main}</span><span class="cause">↳ ${e.cause}</span>`;
+    list.appendChild(d);
+  });
+  const tl = gsap.timeline({ paused: true });
+  tl.fromTo("#s3-kicker", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: .7 }, 0.3);
+  tl.fromTo("#s3-title",  { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: .8 }, 0.6);
+  TRACE_EVENTS.forEach((e, i) => {
+    tl.fromTo("#tev" + i, { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: .6, ease: "power2.out" }, [4, 9, 15, 21, 24][i]);
+  });
+  tl.fromTo("#s3-verdict", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 1 }, 28);
+  tl.to("#scene3", { opacity: 0, duration: .8 }, 38.2);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["scene3"] = tl;
+</script>
+</body>
+</html>
