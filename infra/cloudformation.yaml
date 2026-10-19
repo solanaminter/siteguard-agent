@@ -146,6 +146,7 @@ Resources:
 
   Service:
     Type: AWS::ECS::Service
+    DependsOn: Listener
     Properties:
       Cluster: !Ref Cluster
       TaskDefinition: !Ref TaskDefinition
