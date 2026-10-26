@@ -1,5 +1,5 @@
 # SiteGuard Agent — Technical Report
-### OpenCV AI Competition 2026 · Solo entry by Dy (Solana Minter) / Green Robin
+### OpenCV AI Competition 2026 · Solo entry by Dy (Solana Minter) / Purple Castle Ventures
 
 ## 1. Problem and users
 
@@ -202,8 +202,12 @@ the operator (`infra/deploy.sh <vpc-id> <subnet-ids>`):
   structured JSON logs (one line = one event), suitable for metric
   filters/alarms on escalation rate.
 - **CloudFormation** template (`infra/cloudformation.yaml`) declares all
-  of the above; validated locally for YAML/intrinsic correctness
-  (not yet deployed — deployment is the operator's step).
+  of the above. Live AWS deployment verified Sep 15, 2026 (ECS Fargate +
+  ALB endpoint returned HTTP 200; full evidence in
+  `AWS_DEPLOY_EVIDENCE.md`); the stack was torn down after verification
+  to stop billing, and the judge-facing live endpoint is the Vercel demo
+  (see README). Redeploy is one command (`infra/deploy.sh`) if a live AWS
+  endpoint is wanted again.
 
 ## 8. Responsible use
 
@@ -242,6 +246,8 @@ Model: `assets/models/yolox_s_2022nov.onnx` (OpenCV Zoo, Apache 2.0),
 SHA256 `c5c2d13e59ae883e6af3b45daea64af4833a4951c92d116ec270d9ddbe998063`.
 
 ---
-*Built by Dy (Solana Minter) / Green Robin for the OpenCV AI Competition 2026.*
-*Local build only — no code, model, or media was pushed, deployed, uploaded,
-or submitted from this workspace.*
+*Built by Dy (Solana Minter) / Purple Castle Ventures for the OpenCV AI Competition 2026.*
+*Status update 2026-10-25: filed to the OpenCV AI Competition 2026 on
+2026-10-23 (editable until Oct 26, 11:45 PM PT); demo and video live
+(see README). The "local build only" line from earlier drafts is superseded
+by that filing — see SUBMISSION_BRIEF.md for the current filing status.*

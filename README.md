@@ -6,7 +6,7 @@ decisions** — detections raise incidents, persistence escalates them, cleared
 PPE withdraws them, and a human safety officer approves or rejects actions.
 
 Built for the **OpenCV AI Competition 2026** (targeting the overall ranking +
-the **Agentic Vision Award**). Solo build by **Dy (Solana Minter) / Green Robin**.
+the **Agentic Vision Award**). Solo build by **Dy (Solana Minter) / Purple Castle Ventures**.
 
 ## Live Demo
 
@@ -23,8 +23,9 @@ the **Agentic Vision Award**). Solo build by **Dy (Solana Minter) / Green Robin*
 trace-proven decision changes, architecture, honest metrics and failure cases,
 responsible use.
 
-> 🎬 YouTube (public/unlisted, judge-accessible): **TODO — parent uploads
-> `assets/siteguard-demo.mp4` and pastes the link here.**
+> 🎬 YouTube (judge-accessible, verified live 2026-10-22 via oEmbed):
+> https://www.youtube.com/watch?v=FMDSdMdh9Oc — "SiteGuard Agent -- Demo"
+> by Solana Minter.
 >
 > Suggested title: `SiteGuard Agent — Agentic Construction-Site Safety with
 > OpenCV 5 | OpenCV AI Competition 2026`

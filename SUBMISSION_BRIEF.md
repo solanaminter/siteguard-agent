@@ -11,9 +11,53 @@
 > video upload or final polish. The proposal is the gating item; everything
 > else can follow.
 >
-> **Nothing has been submitted yet** — no Jotform proposal, no AWS deployment,
-> no GitHub push, no YouTube upload, no Devpost submission. All work so far is
-> local-only. The parent agent (or Dy) must perform every outward step.
+> **STATUS UPDATE 2026-10-22 (supersedes the "nothing submitted" note below
+> where it conflicts):** Jotform proposal WAS submitted Sep 14, 2026 ~21:05 PDT
+> (confirmation received); AWS deployment evidence completed Sep 15
+> (live endpoint verified, stack torn down after verification); demo video is
+> live on YouTube (verified 2026-10-22). STILL OPEN ahead of the Oct 26 close:
+> Devpost submission itself, and whether the late proposal was accepted —
+> acceptance still unknown. Do not treat the proposal as accepted.
+>
+> **STATUS UPDATE 2026-10-23 ~08:05 PT (re-verified on opencv26.devpost.com):
+> proposal-acceptance is NOT a gate for the final project.** The official page
+> states the Jotform proposals were for the $150 cloud compute grant only, and
+> "All other teams, including those that submit the cloud compute grant
+> proposal remain eligible to continue to the two-month build phase." Final
+> projects are due Oct 26, 2026 at 11:59 p.m. PT (page event window ends
+> 11:45 p.m. PT — file by the earlier time). Final requirements checklist vs.
+> this package: technical report ✓ (TECHNICAL_REPORT.md), public repo ✓
+> (https://github.com/solanaminter/siteguard-agent, public 200 — NOTE: the
+> correct repo name is siteguard-agent, not siteguard), pinned deps +
+> instructions (verify at filing), architecture diagram ✓ (ARCHITECTURE.png),
+> working web endpoint ✓ (https://siteguard-agent-demo.vercel.app, 200
+> 2026-10-23), video ≤5 min ✓ (3:58, public via oEmbed 2026-10-23,
+> https://www.youtube.com/watch?v=FMDSdMdh9Oc — but CHECK at filing whether
+> the video shows the team, as the rules ask the video to show "the team, the
+> application working, its architecture, and its principal results"),
+> evaluation evidence incl. failure cases ✓ (docs/eval_results.json). REMAINING
+> before filing: staffed-window push (local main is 5 commits ahead of origin,
+> incl. the Purple Castle Ventures affiliation fix; a non-interactive push
+> fails without GitHub credentials in this run) + the Devpost submission
+> itself. AWS note: the meaningful-AWS-component evidence is the Sep 15 live
+> ECS/Fargate deployment (AWS_DEPLOY_EVIDENCE.md, stack torn down after
+> verification); the live endpoint at filing time is the Vercel demo, which
+> satisfies the "working web endpoint" alternative — do NOT claim the AWS
+> stack is still live.
+>
+> **RE-CHECK 2026-10-23 ~08:55 PT (hourly run):** demo 200, repo
+> https://github.com/solanaminter/siteguard-agent 200, video public via
+> oEmbed — filing package still green; only the staffed-window push +
+> Devpost submission remain.
+>
+> **AFFILIATION RESOLVED 2026-10-22 23:5x PT run:** filing affiliation is
+> Purple Castle Ventures — Dy's hackathon company on file, used on every
+> other campaign entry (employer Adobe is separate and is not the filing
+> affiliation). §1 below now reads Purple Castle Ventures. The "Green
+> Robin" lines remaining in §12 are the as-filed Sep 14 Jotform text
+> (historical record — do NOT re-paste or edit); the Green Robin wording
+> baked into the already-published YouTube video end card/description
+> (§10) cannot be changed without a re-upload and is not filing copy.
 
 ---
 
@@ -21,7 +65,7 @@
 
 - **Team name:** SiteGuard Agent (solo)
 - **Representative / sole member:** Solana Minter ("Dy") — solanaminter@gmail.com
-- **Affiliation:** Green Robin
+- **Affiliation (filing):** Purple Castle Ventures (Dy is Founder; employer Adobe is not the filing affiliation — Green Robin is superseded since Sep 19)
 - LinkedIn: https://linkedin.com/in/solanaminter
 - GitHub: https://github.com/solanaminter
 - Dy is **not** a student. Never claim student status.
@@ -97,9 +141,12 @@ in **CloudFormation** (12 resources), deployed by `infra/deploy.sh`
 (one command, prints the `EndpointURL` output). FastAPI review console +
 `/api/analyze/image`, `/api/incidents`, `/api/trace`.
 
-**Status: template validated locally only — NOT deployed.** Parent must run
-`infra/deploy.sh` (or Dy manually) before the deadline; the submission requires
-"a working web endpoint or an arranged live screen-share demonstration."
+**Status (supersedes the "NOT deployed" note): live AWS deployment verified
+Sep 15 (ECS Fargate + ALB endpoint returned HTTP 200; evidence in
+`AWS_DEPLOY_EVIDENCE.md`), stack torn down after verification to stop billing.
+The judge-facing live endpoint is the Vercel demo
+(https://siteguard-agent-demo.vercel.app, verified 200 on 2026-10-22);
+redeploy is one command if a live AWS endpoint is wanted again.
 
 ## 7. Evaluation (exact, honest)
 
@@ -141,15 +188,29 @@ package, agent/policy, eval, CloudFormation, Dockerfile, deploy script,
 `ARCHITECTURE.png`, `TECHNICAL_REPORT.md`, `LICENSE` (MIT, © 2026
 Solana Minter), `assets/annotated/demo_annotated.mp4` + `trace.json`,
 `docs/demo_summary.json`, `docs/eval_results.json`, `videos/siteguard-demo/`
-(HyperFrames source). **Not pushed anywhere.**
+(HyperFrames source).
+
+**STATUS UPDATE 2026-10-25 (supersedes "Not pushed anywhere" above):**
+public repo https://github.com/solanaminter/siteguard-agent exists and is
+public, but its remote HEAD is still the Sep 15 commit — local main is
+ahead with the filing commits (Purple Castle Ventures affiliation, live
+YouTube link, demo-page links, cover assets). Pushing local main before
+the Oct 26, 11:45 PM PT close is the remaining repo-sync step; the
+Devpost submission itself was filed Oct 23 and does not depend on that push.
 
 ## 10. Video
 
 - Final: `assets/siteguard-demo.mp4` (≤5 min; current cut 3:58) — problem,
   real end-to-end pipeline, trace-proven decision changes, architecture,
   metrics, failure cases, responsible use, "built by Dy / Green Robin" card.
-- **YouTube upload NOT done.** Parent must upload (public or unlisted) and
-  paste the link into README + Devpost.
+- **Cover image (generated 2026-10-22, 2048×1152 WebP, verified image
+  bytes):** `assets/media-generation-siteguard-cover-0-e481f26e-a61d-4b28-8992-f4b83b00f5a2.webp`
+  — upload as the Devpost thumbnail at filing (illustrative art, not an
+  evidence metric).
+- **YouTube upload DONE — video live and public, re-verified 2026-10-22
+  via oEmbed:** https://www.youtube.com/watch?v=FMDSdMdh9Oc —
+  "SiteGuard Agent -- Demo" by Solana Minter (local file 3:58, within the
+  5-min cap). Link already in README; paste into Devpost at filing.
 - YouTube title: `SiteGuard Agent — Agentic Construction-Site Safety with OpenCV 5 | OpenCV AI Competition 2026`
 - YouTube description:
   > SiteGuard Agent is an agentic vision system for construction-site safety,
@@ -237,7 +298,7 @@ Multi-camera re-identification, equipment-class masking (the yellow
 excavator false positive), a GPU-enabled container build for real-time
 throughput, and validation on real site footage before any field trust.
 
-## 12. Paste-ready Jotform proposal
+## 12. Jotform proposal — FILED Sep 14, 2026 ~21:05 PDT (historical record; do NOT re-file or edit the text below)
 
 ```
 Team name: SiteGuard Agent (solo — Solana Minter, "Dy", Green Robin)
@@ -291,7 +352,8 @@ Churn Radar (AI Builders Hackathon), each with repo + demo video.
 1. Submit Jotform proposal (Section 12) — **do this first**.
 2. Push repo to GitHub (https://github.com/solanaminter).
 3. Run `infra/deploy.sh` (needs AWS credentials) → note `EndpointURL`.
-4. Upload `assets/siteguard-demo.mp4` to YouTube (public or unlisted) → link.
+4. Upload `assets/siteguard-demo.mp4` to YouTube — DONE:
+   https://www.youtube.com/watch?v=FMDSdMdh9Oc (verified public 2026-10-22).
 5. Update README with GitHub + YouTube + endpoint links.
 6. Fill Devpost submission (Section 11 answers + links + video + report).
 
@@ -304,7 +366,21 @@ Churn Radar (AI Builders Hackathon), each with repo + demo video.
 
 ## 15. Statement of non-actions
 
+**STATUS UPDATE 2026-10-25 (supersedes the builder-only note below where
+it conflicts):** the Jotform proposal (Sep 14), AWS deployment verification
+(Sep 15), YouTube upload, and Devpost submission (Oct 23) have all since
+been performed; the only outward step still outstanding is pushing local
+main to the public repo (see §9 update above).
+
 No Jotform proposal, AWS deployment, GitHub push, YouTube upload, or Devpost
 submission was performed by the builder. All artifacts are local-only under
 `~/workspace/hackathons/opencv-2026/siteguard/`. Every outward step above is
 for the parent agent or Dy to perform.
+
+## Re-verification 2026-10-23 09:49 PT (hourly win loop)
+- Demo https://siteguard-agent-demo.vercel.app 200; repo https://github.com/solanaminter/siteguard-agent 200; video public via oEmbed (https://www.youtube.com/watch?v=FMDSdMdh9Oc, 3:58, within 5-min cap).
+- Filing (Oct 26, by 11:45 PM PT) still needs only: staffed-window push (local main 5 ahead of origin + 4 modified files + 1 untracked cover .json) + the Devpost submission itself. No push attempted this run (non-interactive push fails without GitHub credentials in this context, established prior runs).
+
+## Re-verification 2026-10-23 11:55 PT (hourly win loop)
+- Demo https://siteguard-agent-demo.vercel.app 200; video public via oEmbed (https://www.youtube.com/watch?v=FMDSdMdh9Oc).
+- Filing (Oct 26, by 11:45 PM PT) still needs only: staffed-window push (local main ahead of origin + modified/untracked files) + the Devpost submission itself. No push attempted this run.
